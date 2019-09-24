@@ -6,214 +6,264 @@
     "color": "0xFF4682b4",
     "section": [
       {
-        "index": 1,
-        "title": "Getting Started",
-        "total": 9,
+        "index": 2,
+        "title": "Storing Information",
+        "total": 10,
         "data": [
           {
             "index": 1,
             "type": 0,
-            "content": "Pernahkah kamu bertanya-tanya bagaimana komputer seperti laptop atau handphone berfungsi?",
-            "image": "gettingstarted-1.jpg",
-            "code": [],
+            "content": "Apakah kamu pernah lupa nama kerabat jauh atau hari ulang tahun teman? Yep, komputer takan pernah lupa hal semacam itu ketika kita memberi tahu komputer.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "Tolong ingat Joe sebagai nama saya",
+                "Tampilkan nama saya"
+            ],
             "output": [
               {
                 "type": "script.js",
-                "text": ""
+                "text": "Joe"
               },
               {
                 "type": "browser",
                 "text": ""
               }
             ],
-            "note": "Bagus! Mari lanjutkan",
-            "question": "Pada course ini, kita akan mendalami pertanyaan ini.",
+            "note": "Nah kan! Komputer mengingat kita sendiri memberi tahu untuk mengubah nama yang lain.",
+            "question": "",
             "choice": [],
             "answer": ""
           },
           {
             "index": 2,
             "type": 1,
-            "content": "Komputer sangat bagus dalam melakukan instruksi, namun ada hal yang membuatnya menjadi nampak tidak bagus, apakah itu?",
+            "content": "Untuk mengingat suatu hal, computer menggunakan variable. Konsepnya mirip dengan sebuah box yang meiliki label. Variable juga sama, memilikimlabel dan content. Mana dua jawaban yang benar tentang variable?",
             "image": "",
-            "code": [],
+            "code": [
+                "OK Komputer: ",
+                "Tolong ingat 1/1/1999 sebagai hari ulang tahunku",
+                "Tampilkan hari ulang tahunku"
+            ],
             "output": [
               {
                 "type": "script.js",
-                "text": ""
+                "text": "1/1/1999"
               },
               {
                 "type": "browser",
                 "text": ""
               }
             ],
-            "note": "Itu dia! Faktanya, komputer tidak hanya buruk dalam hal berfikir, karena memeng komputer tidak bisa berfikir.",
-            "question": "Pilih jawaban yang benar",
+            "note": "Bagus! Saperti kamu memberi label 'hari ulang tahunku' pada box, ini masuk akal untuk menyebut 'hari ulang tahunku' sebagai vaeiable, kan?",
+            "question": "Pilih satu atau lebih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "Berfikir"
+                    "text": "itu bukanlah variable"
                   },
                   {
                     "index": 2,
-                    "text": "Menghitung"
+                    "text": "Labelnya adalah hari ulang tahunku"
+                  },
+                  {
+                    "index": 3,
+                    "text": "Kontenya adalah 1/1/1999"
                   }
             ],
-            "answer": "1"
+            "answer": "23"
           },
           {
             "index": 3,
             "type": 1,
-            "content": "Jadi, jika komuter tidak dapat berfikir, bagaimana kita memerintahkan mereka untuk melakukan apa yang kita inginkan?",
-            "image": "gettingstarted-3.jpg",
+            "content": "Dalam bahasa komputer, label atau variable mempunyai harus satu kata, tidak diperbolehkan 'hari ulang tahunku' sebagai variable.",
+            "image": "",
             "code": [],
-            "output": [
-              {
-                "type": "script.js",
-                "text": ""
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Betul! Dengan memberi komputer instruksi dan perintah, merupakan bagian dari Programming itu sendiri",
+            "output": [],
+            "note": "Cantik! Variable tidak perlu huruf sungguhan, kita bisa menggunakan angka, asalkan jangan dilakukan di awal.",
             "question": "Pilih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "Menunggu jalanya proses Arificial Intelligence"
-                  },
-                  {
-                    "index": 2,
-                    "text": "Dengan memberi komputer instruksi dan perintah"
-                  }
-            ],
-            "answer": "2"
-          },
-          {
-            "index": 4,
-            "type": 3,
-            "content": "Tapi bagaimana kita memperolah masalah yang ingin kita selesaikan dengan instruksi dan perintah yang dimengerti oleh komputer?",
-            "image": "gettingstarted-4.png",
-            "code": [],
-            "output": [],
-            "note": "Bingo! Seperti yang kau lihat, programming melibatkan banyak hal tidak hanya menulis kode saja.",
-            "question": "Klik dan geser sesuai urutan yang benar.",
-            "choice": [
-              {
-                "index": 1,
-                "text": "Petakan permasalahanya"
-              },
-              {
-                "index": 2,
-                "text": "Menerjemahkan instruksi dan perintah kedalam kode"
-              },
-              {
-                "index": 3,
-                "text": "Memecahkan masalah kedalam instruksi dan perintah"
-              }
-            ],
-            "answer": "132"
-          },
-          {
-            "index": 5,
-            "type": 1,
-            "content": "Hampir semua komputer mampu menjalankan program komputer. Hal tersebut yang membuat komputer sangant berguna.",
-            "code": [],
-            "output": [],
-            "note": "Yass! Selain aplikasi komputer, seperti browser, sistem operasi dan anti virus juga termasuk program komputer.",
-            "question": "Pilih jawaban yang benar",
-            "choice": [
-              {
-                "index": 1,
-                "text": "Aplikasi Komputer"
-              },
-              {
-                "index": 2,
-                "text": "Kartu Grafis"
-              },
-              {
-                "index": 3,
-                "text": "Layar Komputer"
-              }
-            ],
-            "answer": "1"
-          },
-          {
-            "index": 6,
-            "type": 3,
-            "content": "Program yang paling sederhana pun menggunakan perintah dalam mengurutkan sesuatu langkah-demi-langkah. Bisakah kamu menurutkan urutan dibawah agar masuk akal?",
-            "image": "gettingstarted-6.png",
-            "code": [],
-            "output": [],
-            "note": "Mentap! Jika urutanya tidak benar maka akan terlihat aneh, ya kan?",
-            "question": "Urutkan dengan benar",
-            "choice": [
-              {
-                "index": 1,
-                "text": "Masuk ke ruangan"
-              },
-              {
-                "index": 2,
-                "text": "Buka kunci pintu"
-              },
-              {
-                "index": 3,
-                "text": "Buka pintu"
-              },
-              {
-                "index": 4,
-                "text": "tutup pintu di belakangmu"
-              }
-            ],
-            "answer": "2314"
-          },
-          {
-            "index": 7,
-            "type": 1,
-            "content": "Urutan ada disetiap hal, dimana-mana. Seperti ketika mebuat secangkir kopi, menyeduh mie instan, bahkan mluncurkan rocket sekalipun. Menrutmu bagaimana urutan dalam membuat kue?",
-            "code": [],
-            "output": [],
-            "note": "Mudah! Kita selalu mengerjakan sesuatu berurutan setiap harinya. Sama seperti saat membuat kue.",
-            "question": "Pilih jawaban yang benar",
-            "choice": [
-                {
-                    "index": 1,
-                    "text": "Makan, panggang dalam oven, campurkan mentega"
+                    "text": "1970"
                 },
                 {
                     "index": 2,
-                    "text": "Campurkan mentega, panggang dalam oven, makan"
+                    "text": "1/1"
                 },
                 {
                     "index": 3,
-                    "text": "Campurkan mentega, panggang dalam oven, makan"
+                    "text": "ulang-tahunku"
+                },
+                {
+                    "index": 4,
+                    "text": "ulang tahunmu"
                 }
             ],
             "answer": "3"
           },
           {
-            "index": 8,
-            "type": 3,
-            "content": "Saat membuat roti sandwich pun juga merupakan sebuah urutan. Mari kita membuat sandwich jelly kacang-mentega.",
-            "image": "gettingstarted-8.png",
-            "code": [],
-            "output": [],
-            "note": "Fantastis! jika salah dalam urutan, akan kita masih bisa makan sandwich yang enak?",
-            "question": "",
+            "index": 4,
+            "type": 1,
+            "content": "Sekarang, kita mencoba menggunakan variable sebagai nama dari informasi yang ada didalamnya.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "Tolong ingat 'Walter White' sebagai my_name",
+                "display __"
+            ],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": "Walter White"
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Yaya! karena variable bisa menampilkan nilainya ketika program dijalankan.",
+            "question": "pilih jawaban yang benar",
             "choice": [
               {
                 "index": 1,
-                "text": "Oleskan kacang-mentega pada potongan roti-1 dan jelly di roti-2"
+                "text": "'Walter White'"
               },
               {
                 "index": 2,
-                "text": "Gabungkan potongan roti-2 dan roti-2 bersamaan"
+                "text": "my_name"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 5,
+            "type": 2,
+            "content": "Ada bebebrapa cara, atau tipe, dalam sebuah informasi. Yang terpenting, itu adalah huruf dan angka. Pernyataan yang mana yang paling cocok?",
+            "code": [
+                "OK Komputer: "
+            ],
+            "output": [],
+            "note": "Keren! Sekarang sudah lebih jelas tentang variable.",
+            "question": "Pilih satu atau lebih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Tambah 'White' ke my_name"
+              },
+              {
+                "index": 2,
+                "text": "kurangi 1 tahun dari my_name"
               },
               {
                 "index": 3,
-                "text": "Ambil 2 potong roti"
+                "text": "Tambah 1 tahun untuk my_birthday"
+              }
+            ],
+            "answer": "13"
+          },
+          {
+            "index": 6,
+            "type": 1,
+            "content": "Ada beberapa macam angka tentunya, diantaranya adalah bilangan bulat dan bilangan pecahan.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "bagilah 10 dengan __",
+                "tampilkan hasilnya",
+                "bagilah 10 dengan 1",
+                "tampilkan hasilnya"
+            ],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": [ 3.3333333333, 10 ]
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Bagus! Dalam prakteknya, angka pecahan akan mauncul ketika sudah melakuan pembagian.",
+            "question": "Urutkan dengan benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": 0
+              },
+              {
+                "index": 2,
+                "text": 3
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 7,
+            "type": 1,
+            "content": "Juga, angka bagus untuk perhitungan matematis.",
+            "code": [
+                "OK Komputer: ",
+                "ingat 1 sebagai my_number",
+                "tambah 42 ke my_number",
+                "kalikan __ dengan 3",
+                "tampilkan hasilnya"
+            ],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": "129"
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Mudah! Kita selalu mengerjakan sesuatu berurutan setiap harinya. Sama seperti saat membuat kue.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "myNumber"
+                },
+                {
+                    "index": 2,
+                    "text": "my_number"
+                }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Kata/kalimat, atau juga disebut dengan String, menggunakan tanda kutip dan tidak bisa digunakan untuk operasi matematis.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "ingat my_name sebagai 'Walter'",
+                "tambahkan 'White' ke my_number",
+                "tampilkan my_name"
+            ],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": "WalterWhite"
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Yup! String tersebut disatukan tanpa menggunakan spasi. Spasi juga termasuk String, kita bisa menambahkan jika ingin menggunakanya.",
+            "question": "Pilih salah satu jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "WalterWhite"
+              },
+              {
+                "index": 2,
+                "text": "Walter White"
               }
             ],
             "answer": "312"
@@ -221,26 +271,52 @@
           {
             "index": 9,
             "type": 1,
-            "content": "Pada akhir setiap bab, kita mengerjakan quis sederhana yang membuktikan bahwa kamu bisa menjadi seorang programmer. Apa pernyattan yang tepat tentang programmer?",
-            "code": [],
-            "output": [],
+            "content": "Seperti yang kita lihat, variable seperti sebuah kontainer untuk nilai. bagaimana jika kita ingin menambahkan lebih banyak nilai? Ada sebuah kontainer yang disebut List.",
+            "code": [
+                "OK Komputer: ",
+                "buat list",
+                "tambahkan 'sereal' ke list",
+                "tambhakan 'susu' ke list",
+                "tampilkan __"
+            ],
+            "output": [ "sereal", "susu" ],
             "note": "Mantap! kode dan hardware memang penting, namun programming lebih kepada memberi instruksi dan perintah.",
             "question": "Pilih jawaban yang benar.",
             "choice": [
               {
                 "index": 1,
-                "text": "Memberi komputer instruksi yang tepat"
+                "text": "myList"
               },
               {
                 "index": 2,
-                "text": "Hanya menulis kode"
+                "text": "list"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 10,
+            "type": 2,
+            "content": "Jadi, bagaimana tentang variable?",
+            "code": [],
+            "output": [],
+            "note": "Mantap! kode dan hardware memang penting, namun programming lebih kepada memberi instruksi dan perintah.",
+            "question": "Pilih satu atau lebih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Sekali diteteapkan, variable tidak dapat diganti nilainya lagi"
+              },
+              {
+                "index": 2,
+                "text": "Komputer menggunakan variable untuk mengingat sesuatu"
               },
               {
                 "index": 3,
-                "text": "Mendesain hardware komputer"
+                "text": "Variabel diibaratkan sebuah box yang memiliki label"
               }
             ],
-            "answer": "1"
+            "answer": "23"
           }
         ]
       }
