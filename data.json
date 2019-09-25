@@ -6,317 +6,230 @@
     "color": "0xFF4682b4",
     "section": [
       {
-        "index": 2,
-        "title": "Storing Information",
-        "total": 10,
+        "index": 3,
+        "title": "Making Decisions",
+        "total": 8,
         "data": [
           {
             "index": 1,
             "type": 0,
-            "content": "Apakah kamu pernah lupa nama kerabat jauh atau hari ulang tahun teman? Yep, komputer takan pernah lupa hal semacam itu ketika kita memberi tahu komputer.",
+            "content": "Karena komputer tidak bisa berfikir, komputer tidak dapat membuat keputusan sendiri. Itulah kenapa kita perlu memberi komputer perintah agar menuntunya.",
             "image": "",
             "code": [
                 "OK Komputer: ",
-                "Tolong ingat Joe sebagai nama saya",
-                "Tampilkan nama saya"
+                "Aturan #1: Tidak ada aturan"
             ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "Joe"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Nah kan! Komputer mengingat kita sendiri memberi tahu untuk mengubah nama yang lain.",
+            "output": [],
+            "note": "Kuy! lanjut",
             "question": "",
             "choice": [],
             "answer": ""
           },
           {
             "index": 2,
-            "type": 1,
-            "content": "Untuk mengingat suatu hal, computer menggunakan variable. Konsepnya mirip dengan sebuah box yang meiliki label. Variable juga sama, memilikimlabel dan content. Mana dua jawaban yang benar tentang variable?",
+            "type": 2,
+            "content": "Perintah komputer bergantung pada kondisi. Dari kondisi berikut, mana yang menunjukan bahwa kamu harus perkgi bekerja?",
             "image": "",
-            "code": [
-                "OK Komputer: ",
-                "Tolong ingat 1/1/1999 sebagai hari ulang tahunku",
-                "Tampilkan hari ulang tahunku"
-            ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "1/1/1999"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Bagus! Saperti kamu memberi label 'hari ulang tahunku' pada box, ini masuk akal untuk menyebut 'hari ulang tahunku' sebagai vaeiable, kan?",
+            "code": [],
+            "output": [],
+            "note": "Cantik! Jika kondisi sudah ditemukan, ini saatny akamu untuk pergi bekerja",
             "question": "Pilih satu atau lebih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "itu bukanlah variable"
+                    "text": "Kamu ketinggalan bus"
                   },
                   {
                     "index": 2,
-                    "text": "Labelnya adalah hari ulang tahunku"
+                    "text": "Kamu tidak sedang liburan"
                   },
                   {
                     "index": 3,
-                    "text": "Kontenya adalah 1/1/1999"
+                    "text": "Ini hari kerja"
+                  },
+                  {
+                    "index": 4,
+                    "text": "Kamu sudah punya kerjaan"
                   }
             ],
-            "answer": "23"
+            "answer": "234"
           },
           {
             "index": 3,
             "type": 1,
-            "content": "Dalam bahasa komputer, label atau variable mempunyai harus satu kata, tidak diperbolehkan 'hari ulang tahunku' sebagai variable.",
+            "content": "Komputer menggunakan keyword seperti 'if' dan 'then' untuk untuk mengarahkan perilaku mereka.",
             "image": "",
-            "code": [],
+            "code": [
+              "OK Komputer: ",
+              "if sekarang __ pukul 12",
+              "then tampilkan 'Selamat Pagi'"
+            ],
             "output": [],
-            "note": "Cantik! Variable tidak perlu huruf sungguhan, kita bisa menggunakan angka, asalkan jangan dilakukan di awal.",
+            "note": "Cantik! Sangat mudah bukan?",
             "question": "Pilih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "1970"
+                    "text": "sudah"
                 },
                 {
                     "index": 2,
-                    "text": "1/1"
+                    "text": "sebelum"
                 },
                 {
                     "index": 3,
-                    "text": "ulang-tahunku"
-                },
-                {
-                    "index": 4,
-                    "text": "ulang tahunmu"
+                    "text": "persis"
                 }
             ],
-            "answer": "3"
+            "answer": "2"
           },
           {
             "index": 4,
-            "type": 1,
-            "content": "Sekarang, kita mencoba menggunakan variable sebagai nama dari informasi yang ada didalamnya.",
+            "type": 2,
+            "content": "Jadi, bagaimana jika kita ingin sesuatu hal yang lain terjadi ketika konidisi tidak cocok? ada keyword yang bernama 'else'. Bisakah urutkan dengan benar?",
             "image": "",
-            "code": [
-                "OK Komputer: ",
-                "Tolong ingat 'Walter White' sebagai my_name",
-                "display __"
-            ],
+            "code": [],
             "output": [
                 {
                     "type": "script.js",
-                    "text": "Walter White"
+                    "text": ""
                 },
                 {
                     "type": "browser",
                     "text": ""
                 }
             ],
-            "note": "Yaya! karena variable bisa menampilkan nilainya ketika program dijalankan.",
-            "question": "pilih jawaban yang benar",
+            "note": "Cantik! Dapat mengikuti jalur yang berbeda dalam situasi yang berbeda membuat komputer terlihat cerdas",
+            "question": "",
             "choice": [
               {
                 "index": 1,
-                "text": "'Walter White'"
+                "text": "then tampilkan 'Selamat Pagi'"
               },
               {
                 "index": 2,
-                "text": "my_name"
-              }
-            ],
-            "answer": "2"
-          },
-          {
-            "index": 5,
-            "type": 2,
-            "content": "Ada bebebrapa cara, atau tipe, dalam sebuah informasi. Yang terpenting, itu adalah huruf dan angka. Pernyataan yang mana yang paling cocok?",
-            "code": [
-                "OK Komputer: "
-            ],
-            "output": [],
-            "note": "Keren! Sekarang sudah lebih jelas tentang variable.",
-            "question": "Pilih satu atau lebih jawaban yang benar",
-            "choice": [
-              {
-                "index": 1,
-                "text": "Tambah 'White' ke my_name"
-              },
-              {
-                "index": 2,
-                "text": "kurangi 1 tahun dari my_name"
+                "text": "else tampilkan 'Selamat Siang'"
               },
               {
                 "index": 3,
-                "text": "Tambah 1 tahun untuk my_birthday"
-              }
-            ],
-            "answer": "13"
-          },
-          {
-            "index": 6,
-            "type": 1,
-            "content": "Ada beberapa macam angka tentunya, diantaranya adalah bilangan bulat dan bilangan pecahan.",
-            "image": "",
-            "code": [
-                "OK Komputer: ",
-                "bagilah 10 dengan __",
-                "tampilkan hasilnya",
-                "bagilah 10 dengan 1",
-                "tampilkan hasilnya"
-            ],
-            "output": [
-                {
-                    "type": "script.js",
-                    "text": [ 3.3333333333, 10 ]
-                },
-                {
-                    "type": "browser",
-                    "text": ""
-                }
-            ],
-            "note": "Bagus! Dalam prakteknya, angka pecahan akan mauncul ketika sudah melakuan pembagian.",
-            "question": "Urutkan dengan benar",
-            "choice": [
-              {
-                "index": 1,
-                "text": 0
-              },
-              {
-                "index": 2,
-                "text": 3
-              }
-            ],
-            "answer": "2"
-          },
-          {
-            "index": 7,
-            "type": 1,
-            "content": "Juga, angka bagus untuk perhitungan matematis.",
-            "code": [
-                "OK Komputer: ",
-                "ingat 1 sebagai my_number",
-                "tambah 42 ke my_number",
-                "kalikan __ dengan 3",
-                "tampilkan hasilnya"
-            ],
-            "output": [
-                {
-                    "type": "script.js",
-                    "text": "129"
-                },
-                {
-                    "type": "browser",
-                    "text": ""
-                }
-            ],
-            "note": "Mudah! Kita selalu mengerjakan sesuatu berurutan setiap harinya. Sama seperti saat membuat kue.",
-            "question": "Pilih jawaban yang benar",
-            "choice": [
-                {
-                    "index": 1,
-                    "text": "myNumber"
-                },
-                {
-                    "index": 2,
-                    "text": "my_number"
-                }
-            ],
-            "answer": "2"
-          },
-          {
-            "index": 8,
-            "type": 1,
-            "content": "Kata/kalimat, atau juga disebut dengan String, menggunakan tanda kutip dan tidak bisa digunakan untuk operasi matematis.",
-            "image": "",
-            "code": [
-                "OK Komputer: ",
-                "ingat my_name sebagai 'Walter'",
-                "tambahkan 'White' ke my_number",
-                "tampilkan my_name"
-            ],
-            "output": [
-                {
-                    "type": "script.js",
-                    "text": "WalterWhite"
-                },
-                {
-                    "type": "browser",
-                    "text": ""
-                }
-            ],
-            "note": "Yup! String tersebut disatukan tanpa menggunakan spasi. Spasi juga termasuk String, kita bisa menambahkan jika ingin menggunakanya.",
-            "question": "Pilih salah satu jawaban yang benar.",
-            "choice": [
-              {
-                "index": 1,
-                "text": "WalterWhite"
-              },
-              {
-                "index": 2,
-                "text": "Walter White"
+                "text": "if belum jam 12"
               }
             ],
             "answer": "312"
           },
           {
-            "index": 9,
-            "type": 1,
-            "content": "Seperti yang kita lihat, variable seperti sebuah kontainer untuk nilai. bagaimana jika kita ingin menambahkan lebih banyak nilai? Ada sebuah kontainer yang disebut List.",
-            "code": [
-                "OK Komputer: ",
-                "buat list",
-                "tambahkan 'sereal' ke list",
-                "tambhakan 'susu' ke list",
-                "tampilkan __"
-            ],
-            "output": [ "sereal", "susu" ],
-            "note": "Mantap! kode dan hardware memang penting, namun programming lebih kepada memberi instruksi dan perintah.",
-            "question": "Pilih jawaban yang benar.",
-            "choice": [
-              {
-                "index": 1,
-                "text": "myList"
-              },
-              {
-                "index": 2,
-                "text": "list"
-              }
-            ],
-            "answer": "2"
-          },
-          {
-            "index": 10,
-            "type": 2,
-            "content": "Jadi, bagaimana tentang variable?",
+            "index": 5,
+            "type": 3,
+            "content": "Secara esensi, perintah membuat program terlihat cerdas. Masih ingat urutan dalam membuka pintu?",
             "code": [],
             "output": [],
-            "note": "Mantap! kode dan hardware memang penting, namun programming lebih kepada memberi instruksi dan perintah.",
-            "question": "Pilih satu atau lebih jawaban yang benar.",
+            "note": "Kerja bagus! Sekarang, bagaimana jika pintu terkunci dari awal? dan bagaimana jika pintu sudah terbuka?",
+            "question": "r",
             "choice": [
               {
                 "index": 1,
-                "text": "Sekali diteteapkan, variable tidak dapat diganti nilainya lagi"
+                "text": "Masuk kedalam ruangan"
               },
               {
                 "index": 2,
-                "text": "Komputer menggunakan variable untuk mengingat sesuatu"
+                "text": "buka pintu"
               },
               {
                 "index": 3,
-                "text": "Variabel diibaratkan sebuah box yang memiliki label"
+                "text": "tutup pintunya"
+              },
+              {
+                "index": 4,
+                "text": "buka kunci pintu"
               }
             ],
-            "answer": "23"
+            "answer": "4213"
+          },
+          {
+            "index": 6,
+            "type": 2,
+            "content": "Coba perhatikan. Yang manakah perintah yang cocok untuk membuat urutan terlihat lebih canggih?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Berhasil! Perintah ini untuk meyainkan bahwa pintu terkunci dan buka sebelum memasuki ruangan. Yang lainya terlihat kurang cocok.",
+            "question": "Pilih satu atau lebih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": [ "if pintu terkunci", "then buka kuncinya" ]
+              },
+              {
+                "index": 2,
+                "text": [ "if pintu terbuka", "then masuk ke ruangan" ]
+              },
+              {
+                "index": 3,
+                "text": [ "if pintu tertutup", "then bukalah" ]
+              },
+              {
+                "index": 4,
+                "text": [ "if kamu didalam ruangan", "then tutup pintunya" ]
+              }
+            ],
+            "answer": "13"
+          },
+          {
+            "index": 7,
+            "type": 3,
+            "content": "Dengan bantuan 'else if', kita bisa melakukan skenario tertentu. bagaimana kamu menyapa orang setelah jam 6 sore? kamu tidak akan mengharapkan hari yang baik untuk mereka, bukan?",
+            "code": [],
+            "output": [],
+            "note": "Fantastis! Kamu sepertinya sudah paham dalam memberi perintah pada komputer, ya kan?",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "else tampilkan 'Selamat Malam!'"
+                },
+                {
+                    "index": 2,
+                    "text": "then tampilkan 'Selamat Pagi!'"
+                },
+                {
+                    "index": 3,
+                    "text": "else if sebelum pukul 6pm"
+                },
+                {
+                    "index": 4,
+                    "text": "if sebelum pukul 12pm"
+                },
+                {
+                    "index": 5,
+                    "text": "then tampilkan 'Selamat Siang!'"
+              }
+            ],
+            "answer": "42351"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Jadi, Apa saja yang bisa dilakukan if dan emse statement ketika kita memberi perintah pada komputer.",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Bagus! komputer memerlukan perintah untuk membuat keputusan.",
+            "question": "Pilih salah satu atau lebih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Sering bergsntung pada kondisi"
+              },
+              {
+                "index": 2,
+                "text": "Membuat program menjadi lebih cerdas"
+              },
+              {
+                "index": 3,
+                "text": "Komputer membutuhkanya untuk membuat keputusan"
+              }
+            ],
+            "answer": "123"
           }
         ]
       }
