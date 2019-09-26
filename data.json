@@ -6,230 +6,237 @@
     "color": "0xFF4682b4",
     "section": [
       {
-        "index": 3,
-        "title": "Making Decisions",
+        "index": 4,
+        "title": "Repeating Things",
         "total": 8,
         "data": [
           {
             "index": 1,
-            "type": 0,
-            "content": "Karena komputer tidak bisa berfikir, komputer tidak dapat membuat keputusan sendiri. Itulah kenapa kita perlu memberi komputer perintah agar menuntunya.",
+            "type": 1,
+            "content": "Ketika komputer tidak bisa berfikirl, komputer dapat mengulang tugas terus-menerus dan tidak pernah bosan.",
             "image": "",
             "code": [
                 "OK Komputer: ",
-                "Aturan #1: Tidak ada aturan"
+                "Ulang 5 kali:",
+                "tampilkan 'Hello!'"
             ],
             "output": [],
-            "note": "Kuy! lanjut",
+            "note": "Ini akan mengambil banyak waktu untuk menangani tugas yang berulang juka komputer tidak mengulanginya.",
             "question": "",
-            "choice": [],
-            "answer": ""
-          },
-          {
-            "index": 2,
-            "type": 2,
-            "content": "Perintah komputer bergantung pada kondisi. Dari kondisi berikut, mana yang menunjukan bahwa kamu harus perkgi bekerja?",
-            "image": "",
-            "code": [],
-            "output": [],
-            "note": "Cantik! Jika kondisi sudah ditemukan, ini saatny akamu untuk pergi bekerja",
-            "question": "Pilih satu atau lebih jawaban yang benar",
             "choice": [
-                {
-                    "index": 1,
-                    "text": "Kamu ketinggalan bus"
-                  },
-                  {
-                    "index": 2,
-                    "text": "Kamu tidak sedang liburan"
-                  },
-                  {
-                    "index": 3,
-                    "text": "Ini hari kerja"
-                  },
-                  {
-                    "index": 4,
-                    "text": "Kamu sudah punya kerjaan"
-                  }
-            ],
-            "answer": "234"
-          },
-          {
-            "index": 3,
-            "type": 1,
-            "content": "Komputer menggunakan keyword seperti 'if' dan 'then' untuk untuk mengarahkan perilaku mereka.",
-            "image": "",
-            "code": [
-              "OK Komputer: ",
-              "if sekarang __ pukul 12",
-              "then tampilkan 'Selamat Pagi'"
-            ],
-            "output": [],
-            "note": "Cantik! Sangat mudah bukan?",
-            "question": "Pilih jawaban yang benar",
-            "choice": [
-                {
-                    "index": 1,
-                    "text": "sudah"
-                },
-                {
-                    "index": 2,
-                    "text": "sebelum"
-                },
-                {
-                    "index": 3,
-                    "text": "persis"
-                }
+              {
+                "index": 1,
+                "text": "Hello!Hello!Hello!Hello!"
+              },
+              {
+                "index": 2,
+                "text": "Hello!Hello!Hello!Hello!Hello!"
+              }
             ],
             "answer": "2"
           },
           {
-            "index": 4,
-            "type": 2,
-            "content": "Jadi, bagaimana jika kita ingin sesuatu hal yang lain terjadi ketika konidisi tidak cocok? ada keyword yang bernama 'else'. Bisakah urutkan dengan benar?",
+            "index": 2,
+            "type": 1,
+            "content": "Bayangkan kamu ingin membuat sandwich untuk kamu dan temanmu. Terdengar sederhana, namun membutuhkan tindakan yang berulang. Bisakah kamu selesaikan urutanya?",
             "image": "",
-            "code": [],
-            "output": [
-                {
-                    "type": "script.js",
-                    "text": ""
-                },
-                {
-                    "type": "browser",
-                    "text": ""
-                }
+            "code": [
+              "ambil 4 potong roti",
+              "taruh selai kacang pada potongan 1",
+              "taruh selai kacang pada pootngan 2",
+              "taruh jelly pada potongan 3",
+              "taruh jelly pada potongan 4"
             ],
-            "note": "Cantik! Dapat mengikuti jalur yang berbeda dalam situasi yang berbeda membuat komputer terlihat cerdas",
-            "question": "",
-            "choice": [
-              {
-                "index": 1,
-                "text": "then tampilkan 'Selamat Pagi'"
-              },
-              {
-                "index": 2,
-                "text": "else tampilkan 'Selamat Siang'"
-              },
-              {
-                "index": 3,
-                "text": "if belum jam 12"
-              }
-            ],
-            "answer": "312"
-          },
-          {
-            "index": 5,
-            "type": 3,
-            "content": "Secara esensi, perintah membuat program terlihat cerdas. Masih ingat urutan dalam membuka pintu?",
-            "code": [],
             "output": [],
-            "note": "Kerja bagus! Sekarang, bagaimana jika pintu terkunci dari awal? dan bagaimana jika pintu sudah terbuka?",
-            "question": "r",
+            "note": "Rumit kah? Bayangkan jika kamu harus membuat sandwich untuk sepuluh orang atau lebih",
+            "question": "Pilih jawaban yang benar",
             "choice": [
-              {
-                "index": 1,
-                "text": "Masuk kedalam ruangan"
-              },
-              {
-                "index": 2,
-                "text": "buka pintu"
-              },
-              {
-                "index": 3,
-                "text": "tutup pintunya"
-              },
-              {
-                "index": 4,
-                "text": "buka kunci pintu"
-              }
+                {
+                    "index": 1,
+                    "text": [ "tupmpukan potongan 1 dan 2 bersamaan", "tupmpukan potongan 3 dan 4 bersamaan" ]
+                  },
+                  {
+                    "index": 2,
+                    "text": [ "tupmpukan potongan 1 dan 3 bersamaan", "tupmpukan potongan 2 dan 4 bersamaan" ]
+                  }
             ],
-            "answer": "4213"
+            "answer": "2"
           },
           {
-            "index": 6,
-            "type": 2,
-            "content": "Coba perhatikan. Yang manakah perintah yang cocok untuk membuat urutan terlihat lebih canggih?",
+            "index": 3,
+            "type": 3,
+            "content": "Sekarang, mari kita bikin sepuluh sandwich sungguhan dengan cara yang singkat!",
             "image": "",
             "code": [],
             "output": [],
-            "note": "Berhasil! Perintah ini untuk meyainkan bahwa pintu terkunci dan buka sebelum memasuki ruangan. Yang lainya terlihat kurang cocok.",
-            "question": "Pilih satu atau lebih jawaban yang benar",
-            "choice": [
-              {
-                "index": 1,
-                "text": [ "if pintu terkunci", "then buka kuncinya" ]
-              },
-              {
-                "index": 2,
-                "text": [ "if pintu terbuka", "then masuk ke ruangan" ]
-              },
-              {
-                "index": 3,
-                "text": [ "if pintu tertutup", "then bukalah" ]
-              },
-              {
-                "index": 4,
-                "text": [ "if kamu didalam ruangan", "then tutup pintunya" ]
-              }
-            ],
-            "answer": "13"
-          },
-          {
-            "index": 7,
-            "type": 3,
-            "content": "Dengan bantuan 'else if', kita bisa melakukan skenario tertentu. bagaimana kamu menyapa orang setelah jam 6 sore? kamu tidak akan mengharapkan hari yang baik untuk mereka, bukan?",
-            "code": [],
-            "output": [],
-            "note": "Fantastis! Kamu sepertinya sudah paham dalam memberi perintah pada komputer, ya kan?",
+            "note": "Ya itutulah. Sepuluh sandwich, dibuat oleh komputer.",
             "question": "",
             "choice": [
                 {
                     "index": 1,
-                    "text": "else tampilkan 'Selamat Malam!'"
+                    "text": "ambil 2 potong roti"
                 },
                 {
                     "index": 2,
-                    "text": "then tampilkan 'Selamat Pagi!'"
+                    "text": "tupmpukan potongan 1 dan 2 bersamaan"
                 },
                 {
                     "index": 3,
-                    "text": "else if sebelum pukul 6pm"
+                    "text": "taruh selai kacang pada potongan 1"
                 },
                 {
                     "index": 4,
-                    "text": "if sebelum pukul 12pm"
+                    "text": "taruh jelly pada potongan 2"
                 },
                 {
                     "index": 5,
-                    "text": "then tampilkan 'Selamat Siang!'"
+                    "text": "repeat 10 kali:"
+                }
+            ],
+            "answer": "51342"
+          },
+          {
+            "index": 4,
+            "type": 2,
+            "content": "Singkatan ini disebut sebagai 'loops'. Sebagai seorang programmer, terserah kamu untuk melakukan tugas yang berulang dengan menggunakan 'loops'",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Keren! jika sama atau persis instruksinya satu sama lain, ide yang bagus untuk membungkusnya dalam sebuah 'loop'",
+            "question": "Pilih satu atau lebih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Menghapus semua file dalam sebuah forlder"
+              },
+              {
+                "index": 2,
+                "text": "Menghitung dari 0 sampai 10"
+              },
+              {
+                "index": 3,
+                "text": "Membuat sebuah karya yang unik"
               }
             ],
-            "answer": "42351"
+            "answer": "12"
+          },
+          {
+            "index": 5,
+            "type": 3,
+            "content": "Cukup sering, sebuah urutan perlu diulang untuk jumlah waktu yang ditentukan.",
+            "code": [],
+            "output": [],
+            "note": "Fantastis! perulangan terkontrol (count-cotrolled loops) sangat mempermudah kamu untuk mengetahui berapa kali kamu harus melakukan perulangan.",
+            "question": "Bisakah kamu mengurutkanya supaya beraturan?",
+            "choice": [
+              {
+                "index": 1,
+                "text": "memutar pengering mesin cuci"
+              },
+              {
+                "index": 2,
+                "text": "then keluarkan airnya"
+              },
+              {
+                "index": 3,
+                "text": "masukan airnya"
+              },
+              {
+                "index": 4,
+                "text": "repeat 72000 kali"
+              }
+            ],
+            "answer": "3412"
+          },
+          {
+            "index": 6,
+            "type": 2,
+            "content": "Terkadang, bagaimanapun, kamu mungin tidak tahu seberapa sering sebuah urutan melakukan perulangan",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Cantik! perulangan terkontrol (count-cotrolled loops) mengulangi urutan sampai kondisi terpenuhi.",
+            "question": "Urutan Sarapan ini sebuah contoh",
+            "choice": [
+              {
+                "index": 1,
+                "text": "tuangkan susu kedalam mangkuk"
+              },
+              {
+                "index": 2,
+                "text": "ambil mangkuk, sereal, dan susu"
+              },
+              {
+                "index": 3,
+                "text": "ulangi sampai mangkuk kosong:"
+              },
+              {
+                "index": 4,
+                "text": "sendokkan isi mangkuk ke dalam mulut"
+              },
+              {
+                "index": 5,
+                "text": "taungkan sereal kedalam mangkuk"
+              }
+            ],
+            "answer": "25134"
+          },
+          {
+            "index": 7,
+            "type": 3,
+            "content": "Bisakah kamu berfikir caranya untuk melakukan perulangan sebuah 'shopping list' dan mempercepat kesenangan berbelanja?",
+            "code": [],
+            "output": [],
+            "note": "Fantastis! Itu dia, kamu akan memesan tanpa perlu memakan waktu.",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "then proses pesanan"
+                },
+                {
+                    "index": 2,
+                    "text": "ambil keranjangnya"
+                },
+                {
+                    "index": 3,
+                    "text": "masukan item kedalam keranjang"
+                },
+                {
+                    "index": 4,
+                    "text": "ulangi pada setiap item ke list"
+                },
+                {
+                    "index": 5,
+                    "text": "temukan itemnya"
+              }
+            ],
+            "answer": "24531"
           },
           {
             "index": 8,
             "type": 1,
-            "content": "Jadi, Apa saja yang bisa dilakukan if dan emse statement ketika kita memberi perintah pada komputer.",
+            "content": "Apa yang benar tentang perulangan?",
             "image": "",
             "code": [],
             "output": [],
-            "note": "Bagus! komputer memerlukan perintah untuk membuat keputusan.",
+            "note": "Itu dia! Dengan 'loops', komputer dapat mengulang sesuatu sebanyak yang kita mau.",
             "question": "Pilih salah satu atau lebih jawaban yang benar.",
             "choice": [
               {
                 "index": 1,
-                "text": "Sering bergsntung pada kondisi"
+                "text": "Kita tidak pernah tahu seberapa sering perulangan berlangsung"
               },
               {
                 "index": 2,
-                "text": "Membuat program menjadi lebih cerdas"
+                "text": "Kita dapat menggunakan perulangan dengan 'loops'"
               },
               {
                 "index": 3,
-                "text": "Komputer membutuhkanya untuk membuat keputusan"
+                "text": "'Loops' melakukan perulangan sebanyak yang kit mau"
               }
             ],
-            "answer": "123"
+            "answer": "23"
           }
         ]
       }
