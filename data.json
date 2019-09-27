@@ -6,31 +6,42 @@
     "color": "0xFF4682b4",
     "section": [
       {
-        "index": 4,
-        "title": "Repeating Things",
-        "total": 8,
+        "index": 5,
+        "title": "Making Lists",
+        "total": 9,
         "data": [
           {
             "index": 1,
             "type": 1,
-            "content": "Ketika komputer tidak bisa berfikirl, komputer dapat mengulang tugas terus-menerus dan tidak pernah bosan.",
+            "content": "Sekarang kita tahu bangaimana menyimpan nilai, bagaimana jika kita ingin menyimpan banyak nilai sekaligus, seperti banyak teman?",
             "image": "",
             "code": [
                 "OK Komputer: ",
-                "Ulang 5 kali:",
-                "tampilkan 'Hello!'"
+                "ingat 'Jajang' sebagai my_friend",
+                "ingat 'Teteng' sebagai my_friend",
+                "ingat 'Aceng' sebagai my_friend",
+                "tampilkan __"
             ],
-            "output": [],
-            "note": "Ini akan mengambil banyak waktu untuk menangani tugas yang berulang juka komputer tidak mengulanginya.",
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Aceng"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Huh! terlihat 'my_friend' adalah variable yang hanya dapat menyimpan satu variable saja.",
             "question": "",
             "choice": [
               {
                 "index": 1,
-                "text": "Hello!Hello!Hello!Hello!"
+                "text": "my_friends"
               },
               {
                 "index": 2,
-                "text": "Hello!Hello!Hello!Hello!Hello!"
+                "text": "my_friend"
               }
             ],
             "answer": "2"
@@ -38,205 +49,281 @@
           {
             "index": 2,
             "type": 1,
-            "content": "Bayangkan kamu ingin membuat sandwich untuk kamu dan temanmu. Terdengar sederhana, namun membutuhkan tindakan yang berulang. Bisakah kamu selesaikan urutanya?",
+            "content": "Dalam kasus tersebut, kita akan membuat variable untuk setiap teman. Mari kita coba.",
             "image": "",
             "code": [
-              "ambil 4 potong roti",
-              "taruh selai kacang pada potongan 1",
-              "taruh selai kacang pada pootngan 2",
-              "taruh jelly pada potongan 3",
-              "taruh jelly pada potongan 4"
+              "OK Komputer: ",
+              "ingat 'Jajang' sebagai my_friend_1",
+              "ingat 'Teteng' sebagai my_friend_2",
+              "ingat 'Aceng' sebagai my_friend_3",
+              "tampilkan __"
             ],
-            "output": [],
-            "note": "Rumit kah? Bayangkan jika kamu harus membuat sandwich untuk sepuluh orang atau lebih",
-            "question": "Pilih jawaban yang benar",
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Aceng"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Jadi, jika kita punya ratusan teman, apakah artinya kita harus membuat ratusan variable?",
+            "question": "",
             "choice": [
                 {
                     "index": 1,
-                    "text": [ "tupmpukan potongan 1 dan 2 bersamaan", "tupmpukan potongan 3 dan 4 bersamaan" ]
+                    "text": "my_friend_0"
                   },
                   {
                     "index": 2,
-                    "text": [ "tupmpukan potongan 1 dan 3 bersamaan", "tupmpukan potongan 2 dan 4 bersamaan" ]
+                    "text": "my_friend_3"
+                  },
+                  {
+                    "index": 3,
+                    "text": "my_friend_4"
                   }
             ],
             "answer": "2"
           },
           {
             "index": 3,
-            "type": 3,
-            "content": "Sekarang, mari kita bikin sepuluh sandwich sungguhan dengan cara yang singkat!",
+            "type": 1,
+            "content": "Daripada membuat tiga variable yang minyampan satu nama, kita bisa membuat list yang dapat menampung seluruh nama.",
             "image": "",
-            "code": [],
-            "output": [],
-            "note": "Ya itutulah. Sepuluh sandwich, dibuat oleh komputer.",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah __ dari my_friends",
+              "ingat 'Jajang' untuk my_friend",
+              "ingat 'Teteng' untuk my_friend",
+              "ingat 'Aceng' untuk my_friend",
+              "tampilkan __"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "[ 'jajang', 'Teteng', 'Aceng' ]"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Fantastis! list tersebut menyimpan 'jajang', 'Teteng' dan 'Aceng' dalam satu nama (variable).",
             "question": "",
             "choice": [
                 {
                     "index": 1,
-                    "text": "ambil 2 potong roti"
+                    "text": "list"
                 },
                 {
                     "index": 2,
-                    "text": "tupmpukan potongan 1 dan 2 bersamaan"
-                },
-                {
-                    "index": 3,
-                    "text": "taruh selai kacang pada potongan 1"
-                },
-                {
-                    "index": 4,
-                    "text": "taruh jelly pada potongan 2"
-                },
-                {
-                    "index": 5,
-                    "text": "repeat 10 kali:"
+                    "text": "regular variable"
                 }
             ],
-            "answer": "51342"
+            "answer": "1"
           },
           {
             "index": 4,
-            "type": 2,
-            "content": "Singkatan ini disebut sebagai 'loops'. Sebagai seorang programmer, terserah kamu untuk melakukan tugas yang berulang dengan menggunakan 'loops'",
+            "type": 1,
+            "content": "Sekarang semua nilai ada dalam sebuah list, bagaimana cara kita untuk mengaksesnya?",
             "image": "",
-            "code": [],
-            "output": [],
-            "note": "Keren! jika sama atau persis instruksinya satu sama lain, ide yang bagus untuk membungkusnya dalam sebuah 'loop'",
-            "question": "Pilih satu atau lebih jawaban yang benar",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah list dari my_friends",
+              "ingat 'Jajang' untuk my_friend",
+              "ingat 'Teteng' untuk my_friend",
+              "ingat 'Aceng' untuk my_friend",
+              "tampilkan __ item dari my_friends"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "jajang"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Seperti itulah! kita bisa menentukan posisi nilai dasi list.",
+            "question": "Mari coba dan tampilkan satu nama dari teman kita",
             "choice": [
               {
                 "index": 1,
-                "text": "Menghapus semua file dalam sebuah forlder"
+                "text": "keempat"
               },
               {
                 "index": 2,
-                "text": "Menghitung dari 0 sampai 10"
-              },
-              {
-                "index": 3,
-                "text": "Membuat sebuah karya yang unik"
+                "text": "pertama"
               }
             ],
-            "answer": "12"
+            "answer": "2"
           },
           {
             "index": 5,
-            "type": 3,
-            "content": "Cukup sering, sebuah urutan perlu diulang untuk jumlah waktu yang ditentukan.",
-            "code": [],
-            "output": [],
-            "note": "Fantastis! perulangan terkontrol (count-cotrolled loops) sangat mempermudah kamu untuk mengetahui berapa kali kamu harus melakukan perulangan.",
-            "question": "Bisakah kamu mengurutkanya supaya beraturan?",
+            "type": 1,
+            "content": "Karena kita bisa memasukan nilai ke posisi yang spesifik, 'list' sangatlah flexible.",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah 'list' dari foavorite_dishes",
+              "tambah 'Kari' ke favorite_dishes",
+              "tambah 'Pizza' ke favorite_dishes",
+              "tambah 'Ramen' ke favorite_dishes sebagain item yang pertama",
+              "tampilkan favorite_dishes"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Ramen, Kari, Pizza"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Bagus! Saat kita menambahkan nilai di posisi tertentu, nilai yang lain mundur kebelekang",
+            "question": "Bisakah kamu mencari thau manakah yang akan menjadi output?",
             "choice": [
               {
                 "index": 1,
-                "text": "memutar pengering mesin cuci"
+                "text": "Ramen, Kari, Pizza"
               },
               {
                 "index": 2,
-                "text": "then keluarkan airnya"
-              },
-              {
-                "index": 3,
-                "text": "masukan airnya"
-              },
-              {
-                "index": 4,
-                "text": "repeat 72000 kali"
+                "text": "Kari, Pizza, Ramen"
               }
             ],
-            "answer": "3412"
+            "answer": "1"
           },
           {
             "index": 6,
-            "type": 2,
-            "content": "Terkadang, bagaimanapun, kamu mungin tidak tahu seberapa sering sebuah urutan melakukan perulangan",
+            "type": 1,
+            "content": "Dan, tentu saja, kita dapat menghapus suatu nlai dari sebuah 'list'. Mari coba dan hapush satu item dari list berikut.",
             "image": "",
-            "code": [],
-            "output": [],
-            "note": "Cantik! perulangan terkontrol (count-cotrolled loops) mengulangi urutan sampai kondisi terpenuhi.",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah 'list' dari foavorite_dishes",
+              "tambah 'Kari' ke favorite_dishes",
+              "tambah 'Pizza' ke favorite_dishes",
+              "tambah 'Ramen' ke favorite_dishes",
+              "hapus __ dari list",
+              "tampilkan favorite_dishes"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Pizza, Ramen"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Boom! Kita juga bisa beri tahu komputer untuk menghapus nilai yang spesifik atau sebuah item dari posisi yang spesifik juga",
             "question": "Urutan Sarapan ini sebuah contoh",
             "choice": [
               {
                 "index": 1,
-                "text": "tuangkan susu kedalam mangkuk"
+                "text": "semua item"
               },
               {
                 "index": 2,
-                "text": "ambil mangkuk, sereal, dan susu"
-              },
-              {
-                "index": 3,
-                "text": "ulangi sampai mangkuk kosong:"
-              },
-              {
-                "index": 4,
-                "text": "sendokkan isi mangkuk ke dalam mulut"
-              },
-              {
-                "index": 5,
-                "text": "taungkan sereal kedalam mangkuk"
+                "text": "item pertama"
               }
             ],
-            "answer": "25134"
+            "answer": "2"
           },
           {
             "index": 7,
-            "type": 3,
-            "content": "Bisakah kamu berfikir caranya untuk melakukan perulangan sebuah 'shopping list' dan mempercepat kesenangan berbelanja?",
-            "code": [],
-            "output": [],
-            "note": "Fantastis! Itu dia, kamu akan memesan tanpa perlu memakan waktu.",
+            "type": 1,
+            "content": "Baiklah. Sekarang, mari kita lihat kenapa list sangatlah bagus, ya kan?",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah list dari my_friends",
+              "ingat 'Jajang' untuk my_friend",
+              "ingat 'Teteng' untuk my_friend",
+              "ingat 'Aceng' untuk my_friend",
+              "__ setiap teman di my_friends:",
+              "tampilkan 'Saya suka ' dan teman"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "['Saya suka Jajang', 'Saya suka Teteng', 'Saya suka Aceng']"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Keren! Kita bisa membuat perulangan terhadap my_friends satu-per-satu.",
             "question": "",
             "choice": [
                 {
                     "index": 1,
-                    "text": "then proses pesanan"
+                    "text": "ulangai sampai"
                 },
                 {
                     "index": 2,
-                    "text": "ambil keranjangnya"
-                },
-                {
-                    "index": 3,
-                    "text": "masukan item kedalam keranjang"
-                },
-                {
-                    "index": 4,
-                    "text": "ulangi pada setiap item ke list"
-                },
-                {
-                    "index": 5,
-                    "text": "temukan itemnya"
-              }
+                    "text": "ulangi suntuk"
+                }
             ],
-            "answer": "24531"
+            "answer": "2"
           },
           {
             "index": 8,
             "type": 1,
-            "content": "Apa yang benar tentang perulangan?",
+            "content": "Hal bagus lainya tentang 'list' adalah kita bisa menyortirnya. Yang manakah yang merupakan output yang benar?",
             "image": "",
-            "code": [],
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah list dari my_friends",
+              "ingat 'Jajang' untuk my_friend",
+              "ingat 'Teteng' untuk my_friend",
+              "ingat 'Aceng' untuk my_friend",
+              "sortir my_friends dalam huf abjad yang terbalik",
+              "tampilkan my_friends"
+            ],
             "output": [],
-            "note": "Itu dia! Dengan 'loops', komputer dapat mengulang sesuatu sebanyak yang kita mau.",
-            "question": "Pilih salah satu atau lebih jawaban yang benar.",
+            "note": "Mantap! Itu pasti akan lebih sulit jika hanya satu variable, eh?",
+            "question": "Pilih jawaban yang benar.",
             "choice": [
               {
                 "index": 1,
-                "text": "Kita tidak pernah tahu seberapa sering perulangan berlangsung"
+                "text": "Teteng, Jajang, Aceng"
               },
               {
                 "index": 2,
-                "text": "Kita dapat menggunakan perulangan dengan 'loops'"
+                "text": "Aceng, Jajang, Teteng"
+              }
+            ],
+            "answer": "1"
+          },
+          {
+            "index": 9,
+            "type": 1,
+            "content": "Yang manakah dari pernyataan dibawah yang paling pas dalam mereprentasikan list?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Cantik! List merupakan cara yang tepat untuk membuat satu set nilai yang saling terkait, seperti member dari sebuah klub.",
+            "question": "Pilih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Pi"
+              },
+              {
+                "index": 2,
+                "text": "Member dari sebuah klub"
               },
               {
                 "index": 3,
-                "text": "'Loops' melakukan perulangan sebanyak yang kit mau"
+                "text": "satu set nilai yang tidak saling terkait"
               }
             ],
-            "answer": "23"
+            "answer": "2"
           }
         ]
       }
