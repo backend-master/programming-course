@@ -6,118 +6,123 @@
     "color": "0xFF4682b4",
     "section": [
       {
-        "index": 6,
-        "title": "Bundling Instructions",
+        "index": 7,
+        "title": "Avoiding Pitfalls",
         "total": 8,
         "data": [
           {
             "index": 1,
-            "type": 1,
-            "content": "Urutan sering mengandung bagian yang muncul beberapa kali dan dengan cara yang sangat mirip. dapatkah Anda memikirkan bagian seperti itu?",
+            "type": 0,
+            "content": "Jadi, kabar baiknya adalah bahw komputer tidak membuat kesalahan.",
             "code": [],
             "output": [],
-            "note": "Betul itu! Sarapan rutin setiap hari, sedangkan yang lainya  mungkin terlalu percuma.",
-            "question": "Pilih jawaban yang benar",
-            "choice": [
-              {
-                "index": 1,
-                "text": "Melakukan eksperimen"
-              },
-              {
-                "index": 2,
-                "text": "Sedang sarapan"
-              },
-              {
-                "index": 3,
-                "text": "Menjelajahi duina"
-              }
-            ],
-            "answer": "2"
+            "note": "",
+            "question": "",
+            "choice": [],
+            "answer": ""
           },
           {
             "index": 2,
-            "type": 1,
-            "content": "Program, juga, mengandung bagian yang datang lagi dan lagi. Sebagai contoh, apa yang terjadi ketika kita memotong teks?",
-            "image": "",
-            "code": [
-              "OK Komputer: "
-            ],
-            "output": [],
-            "note": "Sempurna! Menghapus potongan teks sambil meningalkan kursor dari tempatnya",
-            "question": "Pilih jawaban yang benar",
-            "choice": [
-                {
-                    "index": 1,
-                    "text": ["ingat teks", "hapus teks"]
-                  },
-                  {
-                    "index": 2,
-                    "text": ["ingat teks", "pindahkan kursor ke akhir teks"]
-                  }
-            ],
-            "answer": "1"
-          },
-          {
-            "index": 3,
-            "type": 1,
-            "content": "Pada saat menggunakan ulang prosedur, kita harus memberi tahu komputer prosedur yang seperti apa.",
-            "image": "",
-            "code": [
-              "OK Komputer: ",
-              "ingat sebagai __ :",
-              "ingat teks yang terpilih",
-              "hapus teks yang terpilih"
-            ],
-            "output": [],
-            "note": "Segera setelah kita mendefinisikan prosedurnya, kita dapat menggunakan kembali dimanapun dalam program.",
-            "question": "",
-            "choice": [
-                {
-                    "index": 1,
-                    "text": "pasting"
-                },
-                {
-                    "index": 2,
-                    "text": "cutting"
-                }
-            ],
-            "answer": "2"
-          },
-          {
-            "index": 4,
             "type": 0,
-            "content": "Sebaynak apapun yang bisa kita beritahu komputer untuk melakukan sesuatu, termasuk 'cutting', sebetulnya ini adalah pra-definisi prosedur.",
+            "content": "Kesalahan, atau bug, dapat membuat program dapat menghasilkan hasil yang tak terduga atau jalnaya program berhenti.",
             "image": "",
             "code": [
               "OK Komputer: ",
-              "buat sebuah list dari my_friends",
-              "tambahkan 'Udin', 'Jae', dan 'Emen' ke my_friends",
-              "sortir my_friends sesuai urutan huruf alfabet",
-              "tampilkan my_friends"
+              "ingat 0 sebagai my_number",
+              "ulangi sampai my_number kurang dari 0:",
+              "tambah 1 ke my_number",
+              "lalu tampilkan my_number"
             ],
             "output": [
               {
                 "type": "script.js",
-                "text": ["Emen", "Jae", "Udin"]
+                "text": ". . ."
               },
               {
                 "type": "browser",
                 "text": ""
               }
             ],
-            "note": "Itu dia! Bagaimana komputer tahu caranya membuat dan menampilkan urutan sesuai huruf alfabet tanpa pre-define prosedur.",
+            "note": "Lihat? karena my_number tak akan penah kurang dari 0, ini disebut 'infinite-loop' dan takan pernah menamplikan my_number",
             "question": "",
             "choice": [],
             "answer": ""
           },
           {
-            "index": 5,
+            "index": 3,
             "type": 1,
-            "content": "Ketika kita menyampaikan informasi, atau input, atau prosedur, akan menjadi lebih fleksibel. Bisakah kamu melihat input pada program ini?",
+            "content": "Debugging, yang artinya mencari dan memperbaiki bug, ini sangat penting sebagai bagian dari programming, bisakah kamu menemukan bug di program ini?",
+            "image": "",
             "code": [
               "OK Komputer: ",
-              "ingat sebagai menyapa seseorang:",
-              "tampilkan 'Hey ', seseorang, dan '!'"
+              "ingat sebagai Wawan sebagai my_name",
+              "tambah ' Sukiwan' ke my_name",
+              "tampilkan my name"
+            ],
+            "output": [],
+            "note": "Sempurna! Karena 'my name' kehilangan underscore, komputer tidak dapat mengenalisa baris ke 3.", 
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "Ya, ada di 'Sukiwan' ke my_name"
+                },
+                {
+                    "index": 2,
+                    "text": "Tidak, tidak ada bug"
+                },
+                {
+                  "index": 3,
+                  "text": "Ya, dalam menampilkan my name"
+              }
+            ],
+            "answer": "3"
+          },
+          {
+            "index": 4,
+            "type": 1,
+            "content": "Instruksi perlu mengikuti perintah khusus. Ketika kita melanggar perintah ini, komputer tidak tahu apa yang kita ingin komputer lakukan. Perintah apa yang masuk akal disini?",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "jika ini saatnya minum teh",
+              "maka tampilkan 'waktunya untuk __'"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "waktunya untuk minum teh sore hari"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Lihat kan? Ini disebut 'syntax bugs' yang salah dalm pengetkan atau kata yang tidak dimengerti komputer.",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "sarapan"
+              },
+              {
+                "index": 2,
+                "text": "minum teh sore hari"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 5,
+            "type": 1,
+            "content": "Ketika program memiliki 'logic bug', program tidak akan rusak namun program tidak berjalan sebagaimana mestinya. Bisakah kamu menemukan dimana letak bug dalam program ini?",
+            "code": [
+              "OK Komputer: ",
+              "ingat 42 sebgai my_age",
+              "jika my_age lebih besar dari 65",
+              "atau my_age lebih besar dari 12",
+              "maka tampilkan 'diskon 20%'",
+              "jika tidak 'tidak diskon'"
             ],
             "output": [
               {
@@ -129,20 +134,20 @@
                 "text": ""
               }
             ],
-            "note": "Yess! dengan memberikan nama ke prosedur, kita bisa membuatnya lebih fleksibel.",
+            "note": "Fantastis! Kita perlu cek jika my_age kurang dari 12 atau siapapun diatas 12 akan mendapat diskon.",
             "question": "Pilih jawaban yang benar",
             "choice": [
               {
                 "index": 1,
-                "text": "ingat"
+                "text": "Tidak, tidak ada bug"
               },
               {
                 "index": 2,
-                "text": "tampilkan"
+                "text": "Ya, ada typo pada 'tidak diskon'"
               },
               {
                 "index": 3,
-                "text": "seseorang"
+                "text": "Ya, kita perlu cek jika my_age kurang dari 12"
               }
             ],
             "answer": "3"
@@ -150,25 +155,24 @@
           {
             "index": 6,
             "type": 1,
-            "content": "Sebagian dari pengurutan tidak dibatasi untuk berbagai tugas. Bisa juga menampilkan informasi.",
+            "content": "Saat program semakin baik dan kuat, instruksinya menjadi lebih sulit untuk dibaca. Bagaimana kita dapat menangani itu?",
             "image": "",
-            "code": [
-              "OK Komputer: ",
-              "ingat konversi mil ke kilometer",
-              "kalikan mil dengan 1.60934",
-              "__ hasilnya"
-            ],
+            "code": [],
             "output": [],
-            "note": "Boom! ketika prosedur menampilkasn tugas, sebutlah functions, akan me-return (mengembalikan) output",
-            "question": "Urutan Sarapan ini sebuah contoh",
+            "note": "Yep! Menggunakan komentar dan nama yang bermakna terhadap variable dan functions, program menjadi lebih mudah dimengerti dan debug.",
+            "question": "Pilih jawaban yang benar",
             "choice": [
               {
                 "index": 1,
-                "text": "tampilkan (display)"
+                "text": "Dengan membuat program menjadi kurang kuat"
               },
               {
                 "index": 2,
-                "text": "kembalikan (return)"
+                "text": "Dengan memberi nama acak terhadap variable dan functions"
+              },
+              {
+                "index": 3,
+                "text": "Dengan menambah komentar disetiap instruksi yang sulit"
               }
             ],
             "answer": "2"
@@ -176,21 +180,19 @@
           {
             "index": 7,
             "type": 1,
-            "content": "Kemudian. bagaimana caranya kita membuat komputer untuk menampilkan 5 mil dalam kilometer?",
-            "code": [
-              "OK Komputer: "
-            ],
+            "content": "Sebelum kita merilis program, kita harus melakukan serangkaian tes, kenapa ini bisa menjadi penting?",
+            "code": [],
             "output": [],
-            "note": "Boleh juga! karena sebuah fungction mengembalikan (return) sesuatu, komputer perlu mengingat hasilnya untuk menampilkanya.",
+            "note": "Bagus! Walaupun kita tidak ingin mencari setiap bug didalam program, kita tidak boleh merilis sebuah program dengan bug yang parah.",
             "question": "Pilih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "konversi 5 mil ke kilometer"
+                    "text": "Karena kita butuh mengambil setiap hasil yang mungkin diperhitungkan"
                 },
                 {
                     "index": 2,
-                    "text": ["konversi 5 mil ke kilometer", "ingat hasilnya sebagai kilometer", "tampilkan kilometer"]
+                    "text": "Karena mungkin ada bug yang parah didalam program"
                 }
             ],
             "answer": "2"
@@ -198,27 +200,27 @@
           {
             "index": 8,
             "type": 1,
-            "content": "Aapa yang membedakan prosedur dan unction?",
+            "content": "Kitika kita menekan panah kanan dalam game, karakter pada game bergerak ke arah kiri. Bug macam apakah itu?",
             "image": "",
             "code": [],
             "output": [],
-            "note": "Cantik! Satu-satunya perbedaan adalah bahwa prosedur menjalankan tugas (task), sedangkan function menhasilkan nilai (value)",
+            "note": "Fyuuh! Ini adalah logic bug, karena menghasilkan yang tidak diinginkan namun tidak merusak jalanya program/",
             "question": "Pilih jawaban yang benar.",
             "choice": [
               {
                 "index": 1,
-                "text": "prosedur menjalankan tugas (task), sedangkan function mengembalikan (return) nilai"
+                "text": "Syntax bug"
               },
               {
                 "index": 2,
-                "text": "prosedur memiliki nama sedangkan function tidak"
+                "text": "Logic bug"
               },
               {
                 "index": 3,
-                "text": "prosedur membuat program lebih singkat, sedangkan function membuatnya lebih panjang"
+                "text": "Bed bug"
               }
             ],
-            "answer": "1"
+            "answer": "2"
           }
         ]
       }
