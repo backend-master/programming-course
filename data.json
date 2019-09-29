@@ -6,42 +6,30 @@
     "color": "0xFF4682b4",
     "section": [
       {
-        "index": 5,
-        "title": "Making Lists",
-        "total": 9,
+        "index": 6,
+        "title": "Bundling Instructions",
+        "total": 8,
         "data": [
           {
             "index": 1,
             "type": 1,
-            "content": "Sekarang kita tahu bangaimana menyimpan nilai, bagaimana jika kita ingin menyimpan banyak nilai sekaligus, seperti banyak teman?",
-            "image": "",
-            "code": [
-                "OK Komputer: ",
-                "ingat 'Jajang' sebagai my_friend",
-                "ingat 'Teteng' sebagai my_friend",
-                "ingat 'Aceng' sebagai my_friend",
-                "tampilkan __"
-            ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "Aceng"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Huh! terlihat 'my_friend' adalah variable yang hanya dapat menyimpan satu variable saja.",
-            "question": "",
+            "content": "Urutan sering mengandung bagian yang muncul beberapa kali dan dengan cara yang sangat mirip. dapatkah Anda memikirkan bagian seperti itu?",
+            "code": [],
+            "output": [],
+            "note": "Betul itu! Sarapan rutin setiap hari, sedangkan yang lainya  mungkin terlalu percuma.",
+            "question": "Pilih jawaban yang benar",
             "choice": [
               {
                 "index": 1,
-                "text": "my_friends"
+                "text": "Melakukan eksperimen"
               },
               {
                 "index": 2,
-                "text": "my_friend"
+                "text": "Sedang sarapan"
+              },
+              {
+                "index": 3,
+                "text": "Menjelajahi duina"
               }
             ],
             "answer": "2"
@@ -49,128 +37,87 @@
           {
             "index": 2,
             "type": 1,
-            "content": "Dalam kasus tersebut, kita akan membuat variable untuk setiap teman. Mari kita coba.",
+            "content": "Program, juga, mengandung bagian yang datang lagi dan lagi. Sebagai contoh, apa yang terjadi ketika kita memotong teks?",
             "image": "",
             "code": [
-              "OK Komputer: ",
-              "ingat 'Jajang' sebagai my_friend_1",
-              "ingat 'Teteng' sebagai my_friend_2",
-              "ingat 'Aceng' sebagai my_friend_3",
-              "tampilkan __"
+              "OK Komputer: "
             ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "Aceng"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Jadi, jika kita punya ratusan teman, apakah artinya kita harus membuat ratusan variable?",
-            "question": "",
+            "output": [],
+            "note": "Sempurna! Menghapus potongan teks sambil meningalkan kursor dari tempatnya",
+            "question": "Pilih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "my_friend_0"
+                    "text": ["ingat teks", "hapus teks"]
                   },
                   {
                     "index": 2,
-                    "text": "my_friend_3"
-                  },
-                  {
-                    "index": 3,
-                    "text": "my_friend_4"
+                    "text": ["ingat teks", "pindahkan kursor ke akhir teks"]
                   }
             ],
-            "answer": "2"
+            "answer": "1"
           },
           {
             "index": 3,
             "type": 1,
-            "content": "Daripada membuat tiga variable yang minyampan satu nama, kita bisa membuat list yang dapat menampung seluruh nama.",
+            "content": "Pada saat menggunakan ulang prosedur, kita harus memberi tahu komputer prosedur yang seperti apa.",
             "image": "",
             "code": [
               "OK Komputer: ",
-              "buat sebuah __ dari my_friends",
-              "ingat 'Jajang' untuk my_friend",
-              "ingat 'Teteng' untuk my_friend",
-              "ingat 'Aceng' untuk my_friend",
-              "tampilkan __"
+              "ingat sebagai __ :",
+              "ingat teks yang terpilih",
+              "hapus teks yang terpilih"
             ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "[ 'jajang', 'Teteng', 'Aceng' ]"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Fantastis! list tersebut menyimpan 'jajang', 'Teteng' dan 'Aceng' dalam satu nama (variable).",
+            "output": [],
+            "note": "Segera setelah kita mendefinisikan prosedurnya, kita dapat menggunakan kembali dimanapun dalam program.",
             "question": "",
             "choice": [
                 {
                     "index": 1,
-                    "text": "list"
+                    "text": "pasting"
                 },
                 {
                     "index": 2,
-                    "text": "regular variable"
+                    "text": "cutting"
                 }
-            ],
-            "answer": "1"
-          },
-          {
-            "index": 4,
-            "type": 1,
-            "content": "Sekarang semua nilai ada dalam sebuah list, bagaimana cara kita untuk mengaksesnya?",
-            "image": "",
-            "code": [
-              "OK Komputer: ",
-              "buat sebuah list dari my_friends",
-              "ingat 'Jajang' untuk my_friend",
-              "ingat 'Teteng' untuk my_friend",
-              "ingat 'Aceng' untuk my_friend",
-              "tampilkan __ item dari my_friends"
-            ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "jajang"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Seperti itulah! kita bisa menentukan posisi nilai dasi list.",
-            "question": "Mari coba dan tampilkan satu nama dari teman kita",
-            "choice": [
-              {
-                "index": 1,
-                "text": "keempat"
-              },
-              {
-                "index": 2,
-                "text": "pertama"
-              }
             ],
             "answer": "2"
           },
           {
-            "index": 5,
-            "type": 1,
-            "content": "Karena kita bisa memasukan nilai ke posisi yang spesifik, 'list' sangatlah flexible.",
+            "index": 4,
+            "type": 0,
+            "content": "Sebaynak apapun yang bisa kita beritahu komputer untuk melakukan sesuatu, termasuk 'cutting', sebetulnya ini adalah pra-definisi prosedur.",
+            "image": "",
             "code": [
               "OK Komputer: ",
-              "buat sebuah 'list' dari foavorite_dishes",
-              "tambah 'Kari' ke favorite_dishes",
-              "tambah 'Pizza' ke favorite_dishes",
-              "tambah 'Ramen' ke favorite_dishes sebagain item yang pertama",
-              "tampilkan favorite_dishes"
+              "buat sebuah list dari my_friends",
+              "tambahkan 'Udin', 'Jae', dan 'Emen' ke my_friends",
+              "sortir my_friends sesuai urutan huruf alfabet",
+              "tampilkan my_friends"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": ["Emen", "Jae", "Udin"]
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Itu dia! Bagaimana komputer tahu caranya membuat dan menampilkan urutan sesuai huruf alfabet tanpa pre-define prosedur.",
+            "question": "",
+            "choice": [],
+            "answer": ""
+          },
+          {
+            "index": 5,
+            "type": 1,
+            "content": "Ketika kita menyampaikan informasi, atau input, atau prosedur, akan menjadi lebih fleksibel. Bisakah kamu melihat input pada program ini?",
+            "code": [
+              "OK Komputer: ",
+              "ingat sebagai menyapa seseorang:",
+              "tampilkan 'Hey ', seseorang, dan '!'"
             ],
             "output": [
               {
@@ -182,54 +129,46 @@
                 "text": ""
               }
             ],
-            "note": "Bagus! Saat kita menambahkan nilai di posisi tertentu, nilai yang lain mundur kebelekang",
-            "question": "Bisakah kamu mencari thau manakah yang akan menjadi output?",
+            "note": "Yess! dengan memberikan nama ke prosedur, kita bisa membuatnya lebih fleksibel.",
+            "question": "Pilih jawaban yang benar",
             "choice": [
               {
                 "index": 1,
-                "text": "Ramen, Kari, Pizza"
+                "text": "ingat"
               },
               {
                 "index": 2,
-                "text": "Kari, Pizza, Ramen"
+                "text": "tampilkan"
+              },
+              {
+                "index": 3,
+                "text": "seseorang"
               }
             ],
-            "answer": "1"
+            "answer": "3"
           },
           {
             "index": 6,
             "type": 1,
-            "content": "Dan, tentu saja, kita dapat menghapus suatu nlai dari sebuah 'list'. Mari coba dan hapush satu item dari list berikut.",
+            "content": "Sebagian dari pengurutan tidak dibatasi untuk berbagai tugas. Bisa juga menampilkan informasi.",
             "image": "",
             "code": [
               "OK Komputer: ",
-              "buat sebuah 'list' dari foavorite_dishes",
-              "tambah 'Kari' ke favorite_dishes",
-              "tambah 'Pizza' ke favorite_dishes",
-              "tambah 'Ramen' ke favorite_dishes",
-              "hapus __ dari list",
-              "tampilkan favorite_dishes"
+              "ingat konversi mil ke kilometer",
+              "kalikan mil dengan 1.60934",
+              "__ hasilnya"
             ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "Pizza, Ramen"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Boom! Kita juga bisa beri tahu komputer untuk menghapus nilai yang spesifik atau sebuah item dari posisi yang spesifik juga",
+            "output": [],
+            "note": "Boom! ketika prosedur menampilkasn tugas, sebutlah functions, akan me-return (mengembalikan) output",
             "question": "Urutan Sarapan ini sebuah contoh",
             "choice": [
               {
                 "index": 1,
-                "text": "semua item"
+                "text": "tampilkan (display)"
               },
               {
                 "index": 2,
-                "text": "item pertama"
+                "text": "kembalikan (return)"
               }
             ],
             "answer": "2"
@@ -237,36 +176,21 @@
           {
             "index": 7,
             "type": 1,
-            "content": "Baiklah. Sekarang, mari kita lihat kenapa list sangatlah bagus, ya kan?",
+            "content": "Kemudian. bagaimana caranya kita membuat komputer untuk menampilkan 5 mil dalam kilometer?",
             "code": [
-              "OK Komputer: ",
-              "buat sebuah list dari my_friends",
-              "ingat 'Jajang' untuk my_friend",
-              "ingat 'Teteng' untuk my_friend",
-              "ingat 'Aceng' untuk my_friend",
-              "__ setiap teman di my_friends:",
-              "tampilkan 'Saya suka ' dan teman"
+              "OK Komputer: "
             ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "['Saya suka Jajang', 'Saya suka Teteng', 'Saya suka Aceng']"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Keren! Kita bisa membuat perulangan terhadap my_friends satu-per-satu.",
-            "question": "",
+            "output": [],
+            "note": "Boleh juga! karena sebuah fungction mengembalikan (return) sesuatu, komputer perlu mengingat hasilnya untuk menampilkanya.",
+            "question": "Pilih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "ulangai sampai"
+                    "text": "konversi 5 mil ke kilometer"
                 },
                 {
                     "index": 2,
-                    "text": "ulangi suntuk"
+                    "text": ["konversi 5 mil ke kilometer", "ingat hasilnya sebagai kilometer", "tampilkan kilometer"]
                 }
             ],
             "answer": "2"
@@ -274,56 +198,27 @@
           {
             "index": 8,
             "type": 1,
-            "content": "Hal bagus lainya tentang 'list' adalah kita bisa menyortirnya. Yang manakah yang merupakan output yang benar?",
-            "image": "",
-            "code": [
-              "OK Komputer: ",
-              "buat sebuah list dari my_friends",
-              "ingat 'Jajang' untuk my_friend",
-              "ingat 'Teteng' untuk my_friend",
-              "ingat 'Aceng' untuk my_friend",
-              "sortir my_friends dalam huf abjad yang terbalik",
-              "tampilkan my_friends"
-            ],
-            "output": [],
-            "note": "Mantap! Itu pasti akan lebih sulit jika hanya satu variable, eh?",
-            "question": "Pilih jawaban yang benar.",
-            "choice": [
-              {
-                "index": 1,
-                "text": "Teteng, Jajang, Aceng"
-              },
-              {
-                "index": 2,
-                "text": "Aceng, Jajang, Teteng"
-              }
-            ],
-            "answer": "1"
-          },
-          {
-            "index": 9,
-            "type": 1,
-            "content": "Yang manakah dari pernyataan dibawah yang paling pas dalam mereprentasikan list?",
+            "content": "Aapa yang membedakan prosedur dan unction?",
             "image": "",
             "code": [],
             "output": [],
-            "note": "Cantik! List merupakan cara yang tepat untuk membuat satu set nilai yang saling terkait, seperti member dari sebuah klub.",
+            "note": "Cantik! Satu-satunya perbedaan adalah bahwa prosedur menjalankan tugas (task), sedangkan function menhasilkan nilai (value)",
             "question": "Pilih jawaban yang benar.",
             "choice": [
               {
                 "index": 1,
-                "text": "Pi"
+                "text": "prosedur menjalankan tugas (task), sedangkan function mengembalikan (return) nilai"
               },
               {
                 "index": 2,
-                "text": "Member dari sebuah klub"
+                "text": "prosedur memiliki nama sedangkan function tidak"
               },
               {
                 "index": 3,
-                "text": "satu set nilai yang tidak saling terkait"
+                "text": "prosedur membuat program lebih singkat, sedangkan function membuatnya lebih panjang"
               }
             ],
-            "answer": "2"
+            "answer": "1"
           }
         ]
       }
