@@ -6,108 +6,97 @@
     "color": "0xFF4682b4",
     "section": [
       {
-        "index": 7,
-        "title": "Avoiding Pitfalls",
-        "total": 8,
+        "index": 8,
+        "title": "Using Computer-Speak",
+        "total": 11,
         "data": [
           {
             "index": 1,
-            "type": 0,
-            "content": "Jadi, kabar baiknya adalah bahw komputer tidak membuat kesalahan.",
+            "type": 1,
+            "content": "Seperti yang kita tahu, komputer sangatlah pintar jika mereka diberikan instruksi. Namun tetap saja, ada banyak masalah yang sudah kita bicarakan sebelumnya. Apa itu?",
             "code": [],
             "output": [],
-            "note": "",
-            "question": "",
-            "choice": [],
-            "answer": ""
+            "note": "Yeah, maaf tentang itu! faktanya, komputer tak dapat mengingat apapun melainkan hanya 0 dan 1 (biner)",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Komputer tak dapat mengingat suatu hal"
+              },
+              {
+                  "index": 2,
+                  "text": "Komputer tidak mengerti bahasa manusia"
+              },
+              {
+                "index": 3,
+                "text": "Komputer tak dapat mengulang suatu hal"
+              }
+            ],
+            "answer": "2"
           },
           {
             "index": 2,
-            "type": 0,
-            "content": "Kesalahan, atau bug, dapat membuat program dapat menghasilkan hasil yang tak terduga atau jalnaya program berhenti.",
+            "type": 1,
+            "content": "Jadi, jika komputer tidak mengerti bahasa manusia, bagaimana kita memberi tahu mereka apa yang kita bicarakan?",
             "image": "",
-            "code": [
-              "OK Komputer: ",
-              "ingat 0 sebagai my_number",
-              "ulangi sampai my_number kurang dari 0:",
-              "tambah 1 ke my_number",
-              "lalu tampilkan my_number"
-            ],
-            "output": [
+            "code": [],
+            "output": [],
+            "note": "Belum pernah denger, huh? Kita perlu mencari kesamaanya.. dan kita menuju ke Bahasa Pemograman",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
               {
-                "type": "script.js",
-                "text": ". . ."
+                "index": 1,
+                "text": "Dengan instruksi, instruksi dalam bahasa inggris"
               },
               {
-                "type": "browser",
-                "text": ""
+                "index": 2,
+                "text": "Bahasa pemograman"
               }
             ],
-            "note": "Lihat? karena my_number tak akan penah kurang dari 0, ini disebut 'infinite-loop' dan takan pernah menamplikan my_number",
-            "question": "",
-            "choice": [],
-            "answer": ""
+            "answer": "2"
           },
           {
             "index": 3,
             "type": 1,
-            "content": "Debugging, yang artinya mencari dan memperbaiki bug, ini sangat penting sebagai bagian dari programming, bisakah kamu menemukan bug di program ini?",
+            "content": "Tetap saja, bahasa pemograman tidak lebih dari alat bantu komunikasi antara kamu dengan komputer, kenapa begitu?",
             "image": "",
-            "code": [
-              "OK Komputer: ",
-              "ingat sebagai Wawan sebagai my_name",
-              "tambah ' Sukiwan' ke my_name",
-              "tampilkan my name"
-            ],
+            "code": [],
             "output": [],
-            "note": "Sempurna! Karena 'my name' kehilangan underscore, komputer tidak dapat mengenalisa baris ke 3.", 
+            "note": "Itu dia! Karena komputer menggunakan bahasa mesin, program spesial dinmakan 'compilers' akan menerjemahkan instruksi kita kedalam 0 dan 1 sebanyak mungkin", 
             "question": "Pilih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "Ya, ada di 'Sukiwan' ke my_name"
+                    "text": "Karena komputer tidak dapat berfikir"
                 },
                 {
                     "index": 2,
-                    "text": "Tidak, tidak ada bug"
-                },
-                {
-                  "index": 3,
-                  "text": "Ya, dalam menampilkan my name"
-              }
+                    "text": "Karena komputer hanya 'berbicara' dalam 0 dan 1 (biner) dengan bahasa mesin"
+                }
             ],
-            "answer": "3"
+            "answer": "2"
           },
           {
             "index": 4,
             "type": 1,
-            "content": "Instruksi perlu mengikuti perintah khusus. Ketika kita melanggar perintah ini, komputer tidak tahu apa yang kita ingin komputer lakukan. Perintah apa yang masuk akal disini?",
+            "content": "Sekarang, apa mungkin kita panggil instruksi dan perintah dalam bahasa pemograman?",
             "image": "",
-            "code": [
-              "OK Komputer: ",
-              "jika ini saatnya minum teh",
-              "maka tampilkan 'waktunya untuk __'"
-            ],
-            "output": [
-              {
-                "type": "script.js",
-                "text": "waktunya untuk minum teh sore hari"
-              },
-              {
-                "type": "browser",
-                "text": ""
-              }
-            ],
-            "note": "Lihat kan? Ini disebut 'syntax bugs' yang salah dalm pengetkan atau kata yang tidak dimengerti komputer.",
-            "question": "",
+            "code": [],
+            "output": [],
+            "note": "Bagus! Ketika kita menempatkan kode sumber (source code) ditempat yang tepat, ini memberi tahu komputer bagaimana untu bertindak.",
+            "question": "Pilih jawaban yang benar",
             "choice": [
               {
                 "index": 1,
-                "text": "sarapan"
+                "text": "Hashtag"
               },
               {
                 "index": 2,
-                "text": "minum teh sore hari"
+                "text": "Source code"
+              },
+              {
+                "index": 2,
+                "text": "House rules"
               }
             ],
             "answer": "2"
@@ -115,64 +104,64 @@
           {
             "index": 5,
             "type": 1,
-            "content": "Ketika program memiliki 'logic bug', program tidak akan rusak namun program tidak berjalan sebagaimana mestinya. Bisakah kamu menemukan dimana letak bug dalam program ini?",
+            "content": "Ada banyak bahasa pemograman untuk banyak kebutuhan pula. Dalam kursus ini, kita akan mencoba bahasa pemograman yang simple namun powerful yaitu python.",
             "code": [
-              "OK Komputer: ",
-              "ingat 42 sebgai my_age",
-              "jika my_age lebih besar dari 65",
-              "atau my_age lebih besar dari 12",
-              "maka tampilkan 'diskon 20%'",
-              "jika tidak 'tidak diskon'"
+              "my_name = 'Aceng'",
+              "print('Hey, ' + __)"
             ],
             "output": [
               {
                 "type": "script.js",
-                "text": "Ramen, Kari, Pizza"
+                "text": "Hey Aceng"
               },
               {
                 "type": "browser",
                 "text": ""
               }
             ],
-            "note": "Fantastis! Kita perlu cek jika my_age kurang dari 12 atau siapapun diatas 12 akan mendapat diskon.",
+            "note": "Woow! kita basru saja menulis sedikit dengan python",
             "question": "Pilih jawaban yang benar",
             "choice": [
               {
                 "index": 1,
-                "text": "Tidak, tidak ada bug"
+                "text": "myName"
               },
               {
                 "index": 2,
-                "text": "Ya, ada typo pada 'tidak diskon'"
-              },
-              {
-                "index": 3,
-                "text": "Ya, kita perlu cek jika my_age kurang dari 12"
+                "text": "my_name"
               }
             ],
-            "answer": "3"
+            "answer": "2"
           },
           {
             "index": 6,
             "type": 1,
-            "content": "Saat program semakin baik dan kuat, instruksinya menjadi lebih sulit untuk dibaca. Bagaimana kita dapat menangani itu?",
+            "content": "Dalam python, menyimpan informasi sangatlah mudah; faktanya, yang baru saja kita lakukan, daripada memberi tahu komputer untuk mengingat sebuah nilai, kita menulisnya sebgai label dan munggunkan '=' (sama dengan) dan menetapkan sesuatu didalamnya.",
             "image": "",
-            "code": [],
-            "output": [],
-            "note": "Yep! Menggunakan komentar dan nama yang bermakna terhadap variable dan functions, program menjadi lebih mudah dimengerti dan debug.",
-            "question": "Pilih jawaban yang benar",
+            "code": [
+              "my_result __ (1 + 3 -5) * 2 / 4",
+              "print(my_result)"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "-0.5"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Lihat itu? 'print' statement menampilkan nilai apapun yang kita masukan dalam tanda kurung",
+            "question": "",
             "choice": [
               {
                 "index": 1,
-                "text": "Dengan membuat program menjadi kurang kuat"
+                "text": "-"
               },
               {
                 "index": 2,
-                "text": "Dengan memberi nama acak terhadap variable dan functions"
-              },
-              {
-                "index": 3,
-                "text": "Dengan menambah komentar disetiap instruksi yang sulit"
+                "text": "="
               }
             ],
             "answer": "2"
@@ -180,47 +169,164 @@
           {
             "index": 7,
             "type": 1,
-            "content": "Sebelum kita merilis program, kita harus melakukan serangkaian tes, kenapa ini bisa menjadi penting?",
-            "code": [],
-            "output": [],
-            "note": "Bagus! Walaupun kita tidak ingin mencari setiap bug didalam program, kita tidak boleh merilis sebuah program dengan bug yang parah.",
+            "content": "Mendefinisikan aturan di Python hampir sama dengan bahasa manusia. Apakah yang aka muncul?",
+            "code": [
+              "jam = 10",
+              "if jam < 12",
+              "print('Selamat pagi!')",
+              "else:",
+              "print('Selamat siang!')"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Selamat pagi!"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Bagus! Tanda '<' mengecek apakah nilai dikiri kurang dari nilai di kanan. Dalam kasus diatas, 'Selamat pagi!' tang tampil.",
             "question": "Pilih jawaban yang benar",
             "choice": [
                 {
                     "index": 1,
-                    "text": "Karena kita butuh mengambil setiap hasil yang mungkin diperhitungkan"
+                    "text": "Selamat pagi!"
                 },
                 {
                     "index": 2,
-                    "text": "Karena mungkin ada bug yang parah didalam program"
+                    "text": "Selamat siang!"
                 }
             ],
-            "answer": "2"
+            "answer": "1"
           },
           {
             "index": 8,
             "type": 1,
-            "content": "Kitika kita menekan panah kanan dalam game, karakter pada game bergerak ke arah kiri. Bug macam apakah itu?",
+            "content": "Python dapat menangani tugas yang berulang juga. Dapatkah kamu menjalankan kodenya untuk selama mungkin sampai mangkuk terisi",
             "image": "",
-            "code": [],
-            "output": [],
-            "note": "Fyuuh! Ini adalah logic bug, karena menghasilkan yang tidak diinginkan namun tidak merusak jalanya program/",
-            "question": "Pilih jawaban yang benar.",
+            "code": [
+              "sereal = 100",
+              "susu = 100",
+              "isi_mangkuk = serela + susu",
+              "while isi_mangkuk > __:",
+              "isi_mangkuk = isi_mangkuk - 10",
+              "print(isi_mangkuk)"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "0"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Kerja bagus! ketika mangkunya terisi lebih besar dari 0. Pastilah ada sesuatu didalam mangkuknya",
+            "question": "",
             "choice": [
               {
                 "index": 1,
-                "text": "Syntax bug"
+                "text": "10"
               },
               {
                 "index": 2,
-                "text": "Logic bug"
+                "text": "100"
               },
               {
                 "index": 3,
-                "text": "Bed bug"
+                "text": "0"
+              }
+            ],
+            "answer": "3"
+          },
+          {
+            "index": 9,
+            "type": 1,
+            "content": "Tentu saja, kita juga bisa membuat list dari friends. Mari coba dan keluarkan nilai pertama dari list friends ini.",
+            "image": "",
+            "code": [
+              "friends = []",
+              "firends.append('Aceng')",
+              "firends.append('Udin')",
+              "firends.append('Jajang')",
+              "print(firends[__]))"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Aceng"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Apakah kamu melihat perbedaanya? Python mulai menghitung dari 0, jadiitem pertama di list ada diposisi 0, dan item yang kedua ada diposisi 1, dan seterusnya.",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "5"
+              },
+              {
+                "index": 2,
+                "text": "0"
               }
             ],
             "answer": "2"
+          },
+          {
+            "index": 10,
+            "type": 1,
+            "content": "Dalam python, mendefinisakn prosedur dan function dijalankan dengan 'def' keyword.",
+            "image": "",
+            "code": [
+              "def konversi_ke_kilometer(mil):",
+              "km = mil * 1.60934",
+              "return __"
+            ],
+            "output": [],
+            "note": "Fantastis! Kita membungkus sebuah instruksi untuk mengkonversi mil ke kilometer.",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "mil"
+              },
+              {
+                "index": 2,
+                "text": "km"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 11,
+            "type": 2,
+            "content": "Wow, bukankah kita sudah belajar banyak tetntang programming? Mari kita selesaikan semuanya dalam kuis terakhir! Apa yang benar tentang 'computer-speak' atau bahasa pemograman?",
+            "image": "",
+            "code": [ ],
+            "output": [],
+            "note": "Cantik! Kita menggunakan bahsa pemograman seperti Python untuk berkomunikasi dengan komputer, yang mana hanya berbicara dalam bahsa mesin.",
+            "question": "Pilih satu atau lebih jawaban",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Kita menggunakanya karena komputer tidak mengeti bahasa manusia"
+              },
+              {
+                "index": 2,
+                "text": "Pada akhirnya, komputer menerjemahkanya kedalam bahasa mesin"
+              },
+              {
+                "index": 3,
+                "text": "Python adalah satu-satunya bahasa pemograman diuar sana"
+              }
+            ],
+            "answer": "12"
           }
         ]
       }
