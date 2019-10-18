@@ -243,6 +243,1867 @@
             "answer": "1"
           }
         ]
+      },
+      {
+        "index": 2,
+        "title": "Storing Information",
+        "total": 10,
+        "data": [
+          {
+            "index": 1,
+            "type": 0,
+            "content": "Apakah kamu pernah lupa nama kerabat jauh atau hari ulang tahun teman? Yep, komputer takan pernah lupa hal semacam itu ketika kita memberi tahu komputer.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "Tolong ingat Joe sebagai nama saya",
+                "Tampilkan nama saya"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Joe"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Nah kan! Komputer mengingat kita sendiri memberi tahu untuk mengubah nama yang lain.",
+            "question": "",
+            "choice": [],
+            "answer": ""
+          },
+          {
+            "index": 2,
+            "type": 1,
+            "content": "Untuk mengingat suatu hal, computer menggunakan variable. Konsepnya mirip dengan sebuah box yang meiliki label. Variable juga sama, memilikimlabel dan content. Mana dua jawaban yang benar tentang variable?",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "Tolong ingat 1/1/1999 sebagai hari ulang tahunku",
+                "Tampilkan hari ulang tahunku"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "1/1/1999"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Bagus! Saperti kamu memberi label 'hari ulang tahunku' pada box, ini masuk akal untuk menyebut 'hari ulang tahunku' sebagai vaeiable, kan?",
+            "question": "Pilih satu atau lebih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "itu bukanlah variable"
+                  },
+                  {
+                    "index": 2,
+                    "text": "Labelnya adalah hari ulang tahunku"
+                  },
+                  {
+                    "index": 3,
+                    "text": "Kontenya adalah 1/1/1999"
+                  }
+            ],
+            "answer": "23"
+          },
+          {
+            "index": 3,
+            "type": 1,
+            "content": "Dalam bahasa komputer, label atau variable mempunyai harus satu kata, tidak diperbolehkan 'hari ulang tahunku' sebagai variable.",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Cantik! Variable tidak perlu huruf sungguhan, kita bisa menggunakan angka, asalkan jangan dilakukan di awal.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "1970"
+                },
+                {
+                    "index": 2,
+                    "text": "1/1"
+                },
+                {
+                    "index": 3,
+                    "text": "ulang-tahunku"
+                },
+                {
+                    "index": 4,
+                    "text": "ulang tahunmu"
+                }
+            ],
+            "answer": "3"
+          },
+          {
+            "index": 4,
+            "type": 1,
+            "content": "Sekarang, kita mencoba menggunakan variable sebagai nama dari informasi yang ada didalamnya.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "Tolong ingat 'Walter White' sebagai my_name",
+                "display __"
+            ],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": "Walter White"
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Yaya! karena variable bisa menampilkan nilainya ketika program dijalankan.",
+            "question": "pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "'Walter White'"
+              },
+              {
+                "index": 2,
+                "text": "my_name"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 5,
+            "type": 2,
+            "content": "Ada bebebrapa cara, atau tipe, dalam sebuah informasi. Yang terpenting, itu adalah huruf dan angka. Pernyataan yang mana yang paling cocok?",
+            "code": [
+                "OK Komputer: "
+            ],
+            "output": [],
+            "note": "Keren! Sekarang sudah lebih jelas tentang variable.",
+            "question": "Pilih satu atau lebih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Tambah 'White' ke my_name"
+              },
+              {
+                "index": 2,
+                "text": "kurangi 1 tahun dari my_name"
+              },
+              {
+                "index": 3,
+                "text": "Tambah 1 tahun untuk my_birthday"
+              }
+            ],
+            "answer": "13"
+          },
+          {
+            "index": 6,
+            "type": 1,
+            "content": "Ada beberapa macam angka tentunya, diantaranya adalah bilangan bulat dan bilangan pecahan.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "bagilah 10 dengan __",
+                "tampilkan hasilnya",
+                "bagilah 10 dengan 1",
+                "tampilkan hasilnya"
+            ],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": [ 3.3333333333, 10 ]
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Bagus! Dalam prakteknya, angka pecahan akan mauncul ketika sudah melakuan pembagian.",
+            "question": "Urutkan dengan benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": 0
+              },
+              {
+                "index": 2,
+                "text": 3
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 7,
+            "type": 1,
+            "content": "Juga, angka bagus untuk perhitungan matematis.",
+            "code": [
+                "OK Komputer: ",
+                "ingat 1 sebagai my_number",
+                "tambah 42 ke my_number",
+                "kalikan __ dengan 3",
+                "tampilkan hasilnya"
+            ],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": "129"
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Mudah! Kita selalu mengerjakan sesuatu berurutan setiap harinya. Sama seperti saat membuat kue.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "myNumber"
+                },
+                {
+                    "index": 2,
+                    "text": "my_number"
+                }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Kata/kalimat, atau juga disebut dengan String, menggunakan tanda kutip dan tidak bisa digunakan untuk operasi matematis.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "ingat my_name sebagai 'Walter'",
+                "tambahkan 'White' ke my_number",
+                "tampilkan my_name"
+            ],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": "WalterWhite"
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Yup! String tersebut disatukan tanpa menggunakan spasi. Spasi juga termasuk String, kita bisa menambahkan jika ingin menggunakanya.",
+            "question": "Pilih salah satu jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "WalterWhite"
+              },
+              {
+                "index": 2,
+                "text": "Walter White"
+              }
+            ],
+            "answer": "312"
+          },
+          {
+            "index": 9,
+            "type": 1,
+            "content": "Seperti yang kita lihat, variable seperti sebuah kontainer untuk nilai. bagaimana jika kita ingin menambahkan lebih banyak nilai? Ada sebuah kontainer yang disebut List.",
+            "code": [
+                "OK Komputer: ",
+                "buat list",
+                "tambahkan 'sereal' ke list",
+                "tambhakan 'susu' ke list",
+                "tampilkan __"
+            ],
+            "output": [ "sereal", "susu" ],
+            "note": "Mantap! kode dan hardware memang penting, namun programming lebih kepada memberi instruksi dan perintah.",
+            "question": "Pilih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "myList"
+              },
+              {
+                "index": 2,
+                "text": "list"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 10,
+            "type": 2,
+            "content": "Jadi, bagaimana tentang variable?",
+            "code": [],
+            "output": [],
+            "note": "Mantap! kode dan hardware memang penting, namun programming lebih kepada memberi instruksi dan perintah.",
+            "question": "Pilih satu atau lebih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Sekali diteteapkan, variable tidak dapat diganti nilainya lagi"
+              },
+              {
+                "index": 2,
+                "text": "Komputer menggunakan variable untuk mengingat sesuatu"
+              },
+              {
+                "index": 3,
+                "text": "Variabel diibaratkan sebuah box yang memiliki label"
+              }
+            ],
+            "answer": "23"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Making Decisions",
+        "total": 8,
+        "data": [
+          {
+            "index": 1,
+            "type": 0,
+            "content": "Karena komputer tidak bisa berfikir, komputer tidak dapat membuat keputusan sendiri. Itulah kenapa kita perlu memberi komputer perintah agar menuntunya.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "Aturan #1: Tidak ada aturan"
+            ],
+            "output": [],
+            "note": "Kuy! lanjut",
+            "question": "",
+            "choice": [],
+            "answer": ""
+          },
+          {
+            "index": 2,
+            "type": 2,
+            "content": "Perintah komputer bergantung pada kondisi. Dari kondisi berikut, mana yang menunjukan bahwa kamu harus perkgi bekerja?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Cantik! Jika kondisi sudah ditemukan, ini saatny akamu untuk pergi bekerja",
+            "question": "Pilih satu atau lebih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "Kamu ketinggalan bus"
+                  },
+                  {
+                    "index": 2,
+                    "text": "Kamu tidak sedang liburan"
+                  },
+                  {
+                    "index": 3,
+                    "text": "Ini hari kerja"
+                  },
+                  {
+                    "index": 4,
+                    "text": "Kamu sudah punya kerjaan"
+                  }
+            ],
+            "answer": "234"
+          },
+          {
+            "index": 3,
+            "type": 1,
+            "content": "Komputer menggunakan keyword seperti 'if' dan 'then' untuk untuk mengarahkan perilaku mereka.",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "if sekarang __ pukul 12",
+              "then tampilkan 'Selamat Pagi'"
+            ],
+            "output": [],
+            "note": "Cantik! Sangat mudah bukan?",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "sudah"
+                },
+                {
+                    "index": 2,
+                    "text": "sebelum"
+                },
+                {
+                    "index": 3,
+                    "text": "persis"
+                }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 4,
+            "type": 2,
+            "content": "Jadi, bagaimana jika kita ingin sesuatu hal yang lain terjadi ketika konidisi tidak cocok? ada keyword yang bernama 'else'. Bisakah urutkan dengan benar?",
+            "image": "",
+            "code": [],
+            "output": [
+                {
+                    "type": "script.js",
+                    "text": ""
+                },
+                {
+                    "type": "browser",
+                    "text": ""
+                }
+            ],
+            "note": "Cantik! Dapat mengikuti jalur yang berbeda dalam situasi yang berbeda membuat komputer terlihat cerdas",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "then tampilkan 'Selamat Pagi'"
+              },
+              {
+                "index": 2,
+                "text": "else tampilkan 'Selamat Siang'"
+              },
+              {
+                "index": 3,
+                "text": "if belum jam 12"
+              }
+            ],
+            "answer": "312"
+          },
+          {
+            "index": 5,
+            "type": 3,
+            "content": "Secara esensi, perintah membuat program terlihat cerdas. Masih ingat urutan dalam membuka pintu?",
+            "code": [],
+            "output": [],
+            "note": "Kerja bagus! Sekarang, bagaimana jika pintu terkunci dari awal? dan bagaimana jika pintu sudah terbuka?",
+            "question": "r",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Masuk kedalam ruangan"
+              },
+              {
+                "index": 2,
+                "text": "buka pintu"
+              },
+              {
+                "index": 3,
+                "text": "tutup pintunya"
+              },
+              {
+                "index": 4,
+                "text": "buka kunci pintu"
+              }
+            ],
+            "answer": "4213"
+          },
+          {
+            "index": 6,
+            "type": 2,
+            "content": "Coba perhatikan. Yang manakah perintah yang cocok untuk membuat urutan terlihat lebih canggih?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Berhasil! Perintah ini untuk meyainkan bahwa pintu terkunci dan buka sebelum memasuki ruangan. Yang lainya terlihat kurang cocok.",
+            "question": "Pilih satu atau lebih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": [ "if pintu terkunci", "then buka kuncinya" ]
+              },
+              {
+                "index": 2,
+                "text": [ "if pintu terbuka", "then masuk ke ruangan" ]
+              },
+              {
+                "index": 3,
+                "text": [ "if pintu tertutup", "then bukalah" ]
+              },
+              {
+                "index": 4,
+                "text": [ "if kamu didalam ruangan", "then tutup pintunya" ]
+              }
+            ],
+            "answer": "13"
+          },
+          {
+            "index": 7,
+            "type": 3,
+            "content": "Dengan bantuan 'else if', kita bisa melakukan skenario tertentu. bagaimana kamu menyapa orang setelah jam 6 sore? kamu tidak akan mengharapkan hari yang baik untuk mereka, bukan?",
+            "code": [],
+            "output": [],
+            "note": "Fantastis! Kamu sepertinya sudah paham dalam memberi perintah pada komputer, ya kan?",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "else tampilkan 'Selamat Malam!'"
+                },
+                {
+                    "index": 2,
+                    "text": "then tampilkan 'Selamat Pagi!'"
+                },
+                {
+                    "index": 3,
+                    "text": "else if sebelum pukul 6pm"
+                },
+                {
+                    "index": 4,
+                    "text": "if sebelum pukul 12pm"
+                },
+                {
+                    "index": 5,
+                    "text": "then tampilkan 'Selamat Siang!'"
+              }
+            ],
+            "answer": "42351"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Jadi, Apa saja yang bisa dilakukan if dan emse statement ketika kita memberi perintah pada komputer.",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Bagus! komputer memerlukan perintah untuk membuat keputusan.",
+            "question": "Pilih salah satu atau lebih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Sering bergsntung pada kondisi"
+              },
+              {
+                "index": 2,
+                "text": "Membuat program menjadi lebih cerdas"
+              },
+              {
+                "index": 3,
+                "text": "Komputer membutuhkanya untuk membuat keputusan"
+              }
+            ],
+            "answer": "123"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "title": "Repeating Things",
+        "total": 8,
+        "data": [
+          {
+            "index": 1,
+            "type": 1,
+            "content": "Ketika komputer tidak bisa berfikirl, komputer dapat mengulang tugas terus-menerus dan tidak pernah bosan.",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "Ulang 5 kali:",
+                "tampilkan 'Hello!'"
+            ],
+            "output": [],
+            "note": "Ini akan mengambil banyak waktu untuk menangani tugas yang berulang juka komputer tidak mengulanginya.",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Hello!Hello!Hello!Hello!"
+              },
+              {
+                "index": 2,
+                "text": "Hello!Hello!Hello!Hello!Hello!"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 2,
+            "type": 1,
+            "content": "Bayangkan kamu ingin membuat sandwich untuk kamu dan temanmu. Terdengar sederhana, namun membutuhkan tindakan yang berulang. Bisakah kamu selesaikan urutanya?",
+            "image": "",
+            "code": [
+              "ambil 4 potong roti",
+              "taruh selai kacang pada potongan 1",
+              "taruh selai kacang pada pootngan 2",
+              "taruh jelly pada potongan 3",
+              "taruh jelly pada potongan 4"
+            ],
+            "output": [],
+            "note": "Rumit kah? Bayangkan jika kamu harus membuat sandwich untuk sepuluh orang atau lebih",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": [ "tupmpukan potongan 1 dan 2 bersamaan", "tupmpukan potongan 3 dan 4 bersamaan" ]
+                  },
+                  {
+                    "index": 2,
+                    "text": [ "tupmpukan potongan 1 dan 3 bersamaan", "tupmpukan potongan 2 dan 4 bersamaan" ]
+                  }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 3,
+            "type": 3,
+            "content": "Sekarang, mari kita bikin sepuluh sandwich sungguhan dengan cara yang singkat!",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Ya itutulah. Sepuluh sandwich, dibuat oleh komputer.",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "ambil 2 potong roti"
+                },
+                {
+                    "index": 2,
+                    "text": "tupmpukan potongan 1 dan 2 bersamaan"
+                },
+                {
+                    "index": 3,
+                    "text": "taruh selai kacang pada potongan 1"
+                },
+                {
+                    "index": 4,
+                    "text": "taruh jelly pada potongan 2"
+                },
+                {
+                    "index": 5,
+                    "text": "repeat 10 kali:"
+                }
+            ],
+            "answer": "51342"
+          },
+          {
+            "index": 4,
+            "type": 2,
+            "content": "Singkatan ini disebut sebagai 'loops'. Sebagai seorang programmer, terserah kamu untuk melakukan tugas yang berulang dengan menggunakan 'loops'",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Keren! jika sama atau persis instruksinya satu sama lain, ide yang bagus untuk membungkusnya dalam sebuah 'loop'",
+            "question": "Pilih satu atau lebih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Menghapus semua file dalam sebuah forlder"
+              },
+              {
+                "index": 2,
+                "text": "Menghitung dari 0 sampai 10"
+              },
+              {
+                "index": 3,
+                "text": "Membuat sebuah karya yang unik"
+              }
+            ],
+            "answer": "12"
+          },
+          {
+            "index": 5,
+            "type": 3,
+            "content": "Cukup sering, sebuah urutan perlu diulang untuk jumlah waktu yang ditentukan.",
+            "code": [],
+            "output": [],
+            "note": "Fantastis! perulangan terkontrol (count-cotrolled loops) sangat mempermudah kamu untuk mengetahui berapa kali kamu harus melakukan perulangan.",
+            "question": "Bisakah kamu mengurutkanya supaya beraturan?",
+            "choice": [
+              {
+                "index": 1,
+                "text": "memutar pengering mesin cuci"
+              },
+              {
+                "index": 2,
+                "text": "then keluarkan airnya"
+              },
+              {
+                "index": 3,
+                "text": "masukan airnya"
+              },
+              {
+                "index": 4,
+                "text": "repeat 72000 kali"
+              }
+            ],
+            "answer": "3412"
+          },
+          {
+            "index": 6,
+            "type": 2,
+            "content": "Terkadang, bagaimanapun, kamu mungin tidak tahu seberapa sering sebuah urutan melakukan perulangan",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Cantik! perulangan terkontrol (count-cotrolled loops) mengulangi urutan sampai kondisi terpenuhi.",
+            "question": "Urutan Sarapan ini sebuah contoh",
+            "choice": [
+              {
+                "index": 1,
+                "text": "tuangkan susu kedalam mangkuk"
+              },
+              {
+                "index": 2,
+                "text": "ambil mangkuk, sereal, dan susu"
+              },
+              {
+                "index": 3,
+                "text": "ulangi sampai mangkuk kosong:"
+              },
+              {
+                "index": 4,
+                "text": "sendokkan isi mangkuk ke dalam mulut"
+              },
+              {
+                "index": 5,
+                "text": "taungkan sereal kedalam mangkuk"
+              }
+            ],
+            "answer": "25134"
+          },
+          {
+            "index": 7,
+            "type": 3,
+            "content": "Bisakah kamu berfikir caranya untuk melakukan perulangan sebuah 'shopping list' dan mempercepat kesenangan berbelanja?",
+            "code": [],
+            "output": [],
+            "note": "Fantastis! Itu dia, kamu akan memesan tanpa perlu memakan waktu.",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "then proses pesanan"
+                },
+                {
+                    "index": 2,
+                    "text": "ambil keranjangnya"
+                },
+                {
+                    "index": 3,
+                    "text": "masukan item kedalam keranjang"
+                },
+                {
+                    "index": 4,
+                    "text": "ulangi pada setiap item ke list"
+                },
+                {
+                    "index": 5,
+                    "text": "temukan itemnya"
+              }
+            ],
+            "answer": "24531"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Apa yang benar tentang perulangan?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Itu dia! Dengan 'loops', komputer dapat mengulang sesuatu sebanyak yang kita mau.",
+            "question": "Pilih salah satu atau lebih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Kita tidak pernah tahu seberapa sering perulangan berlangsung"
+              },
+              {
+                "index": 2,
+                "text": "Kita dapat menggunakan perulangan dengan 'loops'"
+              },
+              {
+                "index": 3,
+                "text": "'Loops' melakukan perulangan sebanyak yang kit mau"
+              }
+            ],
+            "answer": "23"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "title": "Making Lists",
+        "total": 9,
+        "data": [
+          {
+            "index": 1,
+            "type": 1,
+            "content": "Sekarang kita tahu bangaimana menyimpan nilai, bagaimana jika kita ingin menyimpan banyak nilai sekaligus, seperti banyak teman?",
+            "image": "",
+            "code": [
+                "OK Komputer: ",
+                "ingat 'Jajang' sebagai my_friend",
+                "ingat 'Teteng' sebagai my_friend",
+                "ingat 'Aceng' sebagai my_friend",
+                "tampilkan __"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Aceng"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Huh! terlihat 'my_friend' adalah variable yang hanya dapat menyimpan satu variable saja.",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "my_friends"
+              },
+              {
+                "index": 2,
+                "text": "my_friend"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 2,
+            "type": 1,
+            "content": "Dalam kasus tersebut, kita akan membuat variable untuk setiap teman. Mari kita coba.",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "ingat 'Jajang' sebagai my_friend_1",
+              "ingat 'Teteng' sebagai my_friend_2",
+              "ingat 'Aceng' sebagai my_friend_3",
+              "tampilkan __"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Aceng"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Jadi, jika kita punya ratusan teman, apakah artinya kita harus membuat ratusan variable?",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "my_friend_0"
+                  },
+                  {
+                    "index": 2,
+                    "text": "my_friend_3"
+                  },
+                  {
+                    "index": 3,
+                    "text": "my_friend_4"
+                  }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 3,
+            "type": 1,
+            "content": "Daripada membuat tiga variable yang minyampan satu nama, kita bisa membuat list yang dapat menampung seluruh nama.",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah __ dari my_friends",
+              "ingat 'Jajang' untuk my_friend",
+              "ingat 'Teteng' untuk my_friend",
+              "ingat 'Aceng' untuk my_friend",
+              "tampilkan __"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "[ 'jajang', 'Teteng', 'Aceng' ]"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Fantastis! list tersebut menyimpan 'jajang', 'Teteng' dan 'Aceng' dalam satu nama (variable).",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "list"
+                },
+                {
+                    "index": 2,
+                    "text": "regular variable"
+                }
+            ],
+            "answer": "1"
+          },
+          {
+            "index": 4,
+            "type": 1,
+            "content": "Sekarang semua nilai ada dalam sebuah list, bagaimana cara kita untuk mengaksesnya?",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah list dari my_friends",
+              "ingat 'Jajang' untuk my_friend",
+              "ingat 'Teteng' untuk my_friend",
+              "ingat 'Aceng' untuk my_friend",
+              "tampilkan __ item dari my_friends"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "jajang"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Seperti itulah! kita bisa menentukan posisi nilai dasi list.",
+            "question": "Mari coba dan tampilkan satu nama dari teman kita",
+            "choice": [
+              {
+                "index": 1,
+                "text": "keempat"
+              },
+              {
+                "index": 2,
+                "text": "pertama"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 5,
+            "type": 1,
+            "content": "Karena kita bisa memasukan nilai ke posisi yang spesifik, 'list' sangatlah flexible.",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah 'list' dari foavorite_dishes",
+              "tambah 'Kari' ke favorite_dishes",
+              "tambah 'Pizza' ke favorite_dishes",
+              "tambah 'Ramen' ke favorite_dishes sebagain item yang pertama",
+              "tampilkan favorite_dishes"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Ramen, Kari, Pizza"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Bagus! Saat kita menambahkan nilai di posisi tertentu, nilai yang lain mundur kebelekang",
+            "question": "Bisakah kamu mencari thau manakah yang akan menjadi output?",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Ramen, Kari, Pizza"
+              },
+              {
+                "index": 2,
+                "text": "Kari, Pizza, Ramen"
+              }
+            ],
+            "answer": "1"
+          },
+          {
+            "index": 6,
+            "type": 1,
+            "content": "Dan, tentu saja, kita dapat menghapus suatu nlai dari sebuah 'list'. Mari coba dan hapush satu item dari list berikut.",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah 'list' dari foavorite_dishes",
+              "tambah 'Kari' ke favorite_dishes",
+              "tambah 'Pizza' ke favorite_dishes",
+              "tambah 'Ramen' ke favorite_dishes",
+              "hapus __ dari list",
+              "tampilkan favorite_dishes"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Pizza, Ramen"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Boom! Kita juga bisa beri tahu komputer untuk menghapus nilai yang spesifik atau sebuah item dari posisi yang spesifik juga",
+            "question": "Urutan Sarapan ini sebuah contoh",
+            "choice": [
+              {
+                "index": 1,
+                "text": "semua item"
+              },
+              {
+                "index": 2,
+                "text": "item pertama"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 7,
+            "type": 1,
+            "content": "Baiklah. Sekarang, mari kita lihat kenapa list sangatlah bagus, ya kan?",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah list dari my_friends",
+              "ingat 'Jajang' untuk my_friend",
+              "ingat 'Teteng' untuk my_friend",
+              "ingat 'Aceng' untuk my_friend",
+              "__ setiap teman di my_friends:",
+              "tampilkan 'Saya suka ' dan teman"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "['Saya suka Jajang', 'Saya suka Teteng', 'Saya suka Aceng']"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Keren! Kita bisa membuat perulangan terhadap my_friends satu-per-satu.",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "ulangai sampai"
+                },
+                {
+                    "index": 2,
+                    "text": "ulangi suntuk"
+                }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Hal bagus lainya tentang 'list' adalah kita bisa menyortirnya. Yang manakah yang merupakan output yang benar?",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah list dari my_friends",
+              "ingat 'Jajang' untuk my_friend",
+              "ingat 'Teteng' untuk my_friend",
+              "ingat 'Aceng' untuk my_friend",
+              "sortir my_friends dalam huf abjad yang terbalik",
+              "tampilkan my_friends"
+            ],
+            "output": [],
+            "note": "Mantap! Itu pasti akan lebih sulit jika hanya satu variable, eh?",
+            "question": "Pilih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Teteng, Jajang, Aceng"
+              },
+              {
+                "index": 2,
+                "text": "Aceng, Jajang, Teteng"
+              }
+            ],
+            "answer": "1"
+          },
+          {
+            "index": 9,
+            "type": 1,
+            "content": "Yang manakah dari pernyataan dibawah yang paling pas dalam mereprentasikan list?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Cantik! List merupakan cara yang tepat untuk membuat satu set nilai yang saling terkait, seperti member dari sebuah klub.",
+            "question": "Pilih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Pi"
+              },
+              {
+                "index": 2,
+                "text": "Member dari sebuah klub"
+              },
+              {
+                "index": 3,
+                "text": "satu set nilai yang tidak saling terkait"
+              }
+            ],
+            "answer": "2"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "title": "Bundling Instructions",
+        "total": 8,
+        "data": [
+          {
+            "index": 1,
+            "type": 1,
+            "content": "Urutan sering mengandung bagian yang muncul beberapa kali dan dengan cara yang sangat mirip. dapatkah Anda memikirkan bagian seperti itu?",
+            "code": [],
+            "output": [],
+            "note": "Betul itu! Sarapan rutin setiap hari, sedangkan yang lainya  mungkin terlalu percuma.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Melakukan eksperimen"
+              },
+              {
+                "index": 2,
+                "text": "Sedang sarapan"
+              },
+              {
+                "index": 3,
+                "text": "Menjelajahi duina"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 2,
+            "type": 1,
+            "content": "Program, juga, mengandung bagian yang datang lagi dan lagi. Sebagai contoh, apa yang terjadi ketika kita memotong teks?",
+            "image": "",
+            "code": [
+              "OK Komputer: "
+            ],
+            "output": [],
+            "note": "Sempurna! Menghapus potongan teks sambil meningalkan kursor dari tempatnya",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": ["ingat teks", "hapus teks"]
+                  },
+                  {
+                    "index": 2,
+                    "text": ["ingat teks", "pindahkan kursor ke akhir teks"]
+                  }
+            ],
+            "answer": "1"
+          },
+          {
+            "index": 3,
+            "type": 1,
+            "content": "Pada saat menggunakan ulang prosedur, kita harus memberi tahu komputer prosedur yang seperti apa.",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "ingat sebagai __ :",
+              "ingat teks yang terpilih",
+              "hapus teks yang terpilih"
+            ],
+            "output": [],
+            "note": "Segera setelah kita mendefinisikan prosedurnya, kita dapat menggunakan kembali dimanapun dalam program.",
+            "question": "",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "pasting"
+                },
+                {
+                    "index": 2,
+                    "text": "cutting"
+                }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 4,
+            "type": 0,
+            "content": "Sebaynak apapun yang bisa kita beritahu komputer untuk melakukan sesuatu, termasuk 'cutting', sebetulnya ini adalah pra-definisi prosedur.",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "buat sebuah list dari my_friends",
+              "tambahkan 'Udin', 'Jae', dan 'Emen' ke my_friends",
+              "sortir my_friends sesuai urutan huruf alfabet",
+              "tampilkan my_friends"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": ["Emen", "Jae", "Udin"]
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Itu dia! Bagaimana komputer tahu caranya membuat dan menampilkan urutan sesuai huruf alfabet tanpa pre-define prosedur.",
+            "question": "",
+            "choice": [],
+            "answer": ""
+          },
+          {
+            "index": 5,
+            "type": 1,
+            "content": "Ketika kita menyampaikan informasi, atau input, atau prosedur, akan menjadi lebih fleksibel. Bisakah kamu melihat input pada program ini?",
+            "code": [
+              "OK Komputer: ",
+              "ingat sebagai menyapa seseorang:",
+              "tampilkan 'Hey ', seseorang, dan '!'"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Ramen, Kari, Pizza"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Yess! dengan memberikan nama ke prosedur, kita bisa membuatnya lebih fleksibel.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "ingat"
+              },
+              {
+                "index": 2,
+                "text": "tampilkan"
+              },
+              {
+                "index": 3,
+                "text": "seseorang"
+              }
+            ],
+            "answer": "3"
+          },
+          {
+            "index": 6,
+            "type": 1,
+            "content": "Sebagian dari pengurutan tidak dibatasi untuk berbagai tugas. Bisa juga menampilkan informasi.",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "ingat konversi mil ke kilometer",
+              "kalikan mil dengan 1.60934",
+              "__ hasilnya"
+            ],
+            "output": [],
+            "note": "Boom! ketika prosedur menampilkasn tugas, sebutlah functions, akan me-return (mengembalikan) output",
+            "question": "Urutan Sarapan ini sebuah contoh",
+            "choice": [
+              {
+                "index": 1,
+                "text": "tampilkan (display)"
+              },
+              {
+                "index": 2,
+                "text": "kembalikan (return)"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 7,
+            "type": 1,
+            "content": "Kemudian. bagaimana caranya kita membuat komputer untuk menampilkan 5 mil dalam kilometer?",
+            "code": [
+              "OK Komputer: "
+            ],
+            "output": [],
+            "note": "Boleh juga! karena sebuah fungction mengembalikan (return) sesuatu, komputer perlu mengingat hasilnya untuk menampilkanya.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "konversi 5 mil ke kilometer"
+                },
+                {
+                    "index": 2,
+                    "text": ["konversi 5 mil ke kilometer", "ingat hasilnya sebagai kilometer", "tampilkan kilometer"]
+                }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Aapa yang membedakan prosedur dan unction?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Cantik! Satu-satunya perbedaan adalah bahwa prosedur menjalankan tugas (task), sedangkan function menhasilkan nilai (value)",
+            "question": "Pilih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "prosedur menjalankan tugas (task), sedangkan function mengembalikan (return) nilai"
+              },
+              {
+                "index": 2,
+                "text": "prosedur memiliki nama sedangkan function tidak"
+              },
+              {
+                "index": 3,
+                "text": "prosedur membuat program lebih singkat, sedangkan function membuatnya lebih panjang"
+              }
+            ],
+            "answer": "1"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "title": "Avoiding Pitfalls",
+        "total": 8,
+        "data": [
+          {
+            "index": 1,
+            "type": 0,
+            "content": "Jadi, kabar baiknya adalah bahw komputer tidak membuat kesalahan.",
+            "code": [],
+            "output": [],
+            "note": "",
+            "question": "",
+            "choice": [],
+            "answer": ""
+          },
+          {
+            "index": 2,
+            "type": 0,
+            "content": "Kesalahan, atau bug, dapat membuat program dapat menghasilkan hasil yang tak terduga atau jalnaya program berhenti.",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "ingat 0 sebagai my_number",
+              "ulangi sampai my_number kurang dari 0:",
+              "tambah 1 ke my_number",
+              "lalu tampilkan my_number"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": ". . ."
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Lihat? karena my_number tak akan penah kurang dari 0, ini disebut 'infinite-loop' dan takan pernah menamplikan my_number",
+            "question": "",
+            "choice": [],
+            "answer": ""
+          },
+          {
+            "index": 3,
+            "type": 1,
+            "content": "Debugging, yang artinya mencari dan memperbaiki bug, ini sangat penting sebagai bagian dari programming, bisakah kamu menemukan bug di program ini?",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "ingat sebagai Wawan sebagai my_name",
+              "tambah ' Sukiwan' ke my_name",
+              "tampilkan my name"
+            ],
+            "output": [],
+            "note": "Sempurna! Karena 'my name' kehilangan underscore, komputer tidak dapat mengenalisa baris ke 3.", 
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "Ya, ada di 'Sukiwan' ke my_name"
+                },
+                {
+                    "index": 2,
+                    "text": "Tidak, tidak ada bug"
+                },
+                {
+                  "index": 3,
+                  "text": "Ya, dalam menampilkan my name"
+              }
+            ],
+            "answer": "3"
+          },
+          {
+            "index": 4,
+            "type": 1,
+            "content": "Instruksi perlu mengikuti perintah khusus. Ketika kita melanggar perintah ini, komputer tidak tahu apa yang kita ingin komputer lakukan. Perintah apa yang masuk akal disini?",
+            "image": "",
+            "code": [
+              "OK Komputer: ",
+              "jika ini saatnya minum teh",
+              "maka tampilkan 'waktunya untuk __'"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "waktunya untuk minum teh sore hari"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Lihat kan? Ini disebut 'syntax bugs' yang salah dalm pengetkan atau kata yang tidak dimengerti komputer.",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "sarapan"
+              },
+              {
+                "index": 2,
+                "text": "minum teh sore hari"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 5,
+            "type": 1,
+            "content": "Ketika program memiliki 'logic bug', program tidak akan rusak namun program tidak berjalan sebagaimana mestinya. Bisakah kamu menemukan dimana letak bug dalam program ini?",
+            "code": [
+              "OK Komputer: ",
+              "ingat 42 sebgai my_age",
+              "jika my_age lebih besar dari 65",
+              "atau my_age lebih besar dari 12",
+              "maka tampilkan 'diskon 20%'",
+              "jika tidak 'tidak diskon'"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Ramen, Kari, Pizza"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Fantastis! Kita perlu cek jika my_age kurang dari 12 atau siapapun diatas 12 akan mendapat diskon.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Tidak, tidak ada bug"
+              },
+              {
+                "index": 2,
+                "text": "Ya, ada typo pada 'tidak diskon'"
+              },
+              {
+                "index": 3,
+                "text": "Ya, kita perlu cek jika my_age kurang dari 12"
+              }
+            ],
+            "answer": "3"
+          },
+          {
+            "index": 6,
+            "type": 1,
+            "content": "Saat program semakin baik dan kuat, instruksinya menjadi lebih sulit untuk dibaca. Bagaimana kita dapat menangani itu?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Yep! Menggunakan komentar dan nama yang bermakna terhadap variable dan functions, program menjadi lebih mudah dimengerti dan debug.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Dengan membuat program menjadi kurang kuat"
+              },
+              {
+                "index": 2,
+                "text": "Dengan memberi nama acak terhadap variable dan functions"
+              },
+              {
+                "index": 3,
+                "text": "Dengan menambah komentar disetiap instruksi yang sulit"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 7,
+            "type": 1,
+            "content": "Sebelum kita merilis program, kita harus melakukan serangkaian tes, kenapa ini bisa menjadi penting?",
+            "code": [],
+            "output": [],
+            "note": "Bagus! Walaupun kita tidak ingin mencari setiap bug didalam program, kita tidak boleh merilis sebuah program dengan bug yang parah.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "Karena kita butuh mengambil setiap hasil yang mungkin diperhitungkan"
+                },
+                {
+                    "index": 2,
+                    "text": "Karena mungkin ada bug yang parah didalam program"
+                }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Kitika kita menekan panah kanan dalam game, karakter pada game bergerak ke arah kiri. Bug macam apakah itu?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Fyuuh! Ini adalah logic bug, karena menghasilkan yang tidak diinginkan namun tidak merusak jalanya program/",
+            "question": "Pilih jawaban yang benar.",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Syntax bug"
+              },
+              {
+                "index": 2,
+                "text": "Logic bug"
+              },
+              {
+                "index": 3,
+                "text": "Bed bug"
+              }
+            ],
+            "answer": "2"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "title": "Using Computer-Speak",
+        "total": 11,
+        "data": [
+          {
+            "index": 1,
+            "type": 1,
+            "content": "Seperti yang kita tahu, komputer sangatlah pintar jika mereka diberikan instruksi. Namun tetap saja, ada banyak masalah yang sudah kita bicarakan sebelumnya. Apa itu?",
+            "code": [],
+            "output": [],
+            "note": "Yeah, maaf tentang itu! faktanya, komputer tak dapat mengingat apapun melainkan hanya 0 dan 1 (biner)",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Komputer tak dapat mengingat suatu hal"
+              },
+              {
+                  "index": 2,
+                  "text": "Komputer tidak mengerti bahasa manusia"
+              },
+              {
+                "index": 3,
+                "text": "Komputer tak dapat mengulang suatu hal"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 2,
+            "type": 1,
+            "content": "Jadi, jika komputer tidak mengerti bahasa manusia, bagaimana kita memberi tahu mereka apa yang kita bicarakan?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Belum pernah denger, huh? Kita perlu mencari kesamaanya.. dan kita menuju ke Bahasa Pemograman",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Dengan instruksi, instruksi dalam bahasa inggris"
+              },
+              {
+                "index": 2,
+                "text": "Bahasa pemograman"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 3,
+            "type": 1,
+            "content": "Tetap saja, bahasa pemograman tidak lebih dari alat bantu komunikasi antara kamu dengan komputer, kenapa begitu?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Itu dia! Karena komputer menggunakan bahasa mesin, program spesial dinmakan 'compilers' akan menerjemahkan instruksi kita kedalam 0 dan 1 sebanyak mungkin", 
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "Karena komputer tidak dapat berfikir"
+                },
+                {
+                    "index": 2,
+                    "text": "Karena komputer hanya 'berbicara' dalam 0 dan 1 (biner) dengan bahasa mesin"
+                }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 4,
+            "type": 1,
+            "content": "Sekarang, apa mungkin kita panggil instruksi dan perintah dalam bahasa pemograman?",
+            "image": "",
+            "code": [],
+            "output": [],
+            "note": "Bagus! Ketika kita menempatkan kode sumber (source code) ditempat yang tepat, ini memberi tahu komputer bagaimana untu bertindak.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Hashtag"
+              },
+              {
+                "index": 2,
+                "text": "Source code"
+              },
+              {
+                "index": 2,
+                "text": "House rules"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 5,
+            "type": 1,
+            "content": "Ada banyak bahasa pemograman untuk banyak kebutuhan pula. Dalam kursus ini, kita akan mencoba bahasa pemograman yang simple namun powerful yaitu python.",
+            "code": [
+              "my_name = 'Aceng'",
+              "print('Hey, ' + __)"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Hey Aceng"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Woow! kita basru saja menulis sedikit dengan python",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+              {
+                "index": 1,
+                "text": "myName"
+              },
+              {
+                "index": 2,
+                "text": "my_name"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 6,
+            "type": 1,
+            "content": "Dalam python, menyimpan informasi sangatlah mudah; faktanya, yang baru saja kita lakukan, daripada memberi tahu komputer untuk mengingat sebuah nilai, kita menulisnya sebgai label dan munggunkan '=' (sama dengan) dan menetapkan sesuatu didalamnya.",
+            "image": "",
+            "code": [
+              "my_result __ (1 + 3 -5) * 2 / 4",
+              "print(my_result)"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "-0.5"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Lihat itu? 'print' statement menampilkan nilai apapun yang kita masukan dalam tanda kurung",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "-"
+              },
+              {
+                "index": 2,
+                "text": "="
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 7,
+            "type": 1,
+            "content": "Mendefinisikan aturan di Python hampir sama dengan bahasa manusia. Apakah yang aka muncul?",
+            "code": [
+              "jam = 10",
+              "if jam < 12",
+              "print('Selamat pagi!')",
+              "else:",
+              "print('Selamat siang!')"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Selamat pagi!"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Bagus! Tanda '<' mengecek apakah nilai dikiri kurang dari nilai di kanan. Dalam kasus diatas, 'Selamat pagi!' tang tampil.",
+            "question": "Pilih jawaban yang benar",
+            "choice": [
+                {
+                    "index": 1,
+                    "text": "Selamat pagi!"
+                },
+                {
+                    "index": 2,
+                    "text": "Selamat siang!"
+                }
+            ],
+            "answer": "1"
+          },
+          {
+            "index": 8,
+            "type": 1,
+            "content": "Python dapat menangani tugas yang berulang juga. Dapatkah kamu menjalankan kodenya untuk selama mungkin sampai mangkuk terisi",
+            "image": "",
+            "code": [
+              "sereal = 100",
+              "susu = 100",
+              "isi_mangkuk = serela + susu",
+              "while isi_mangkuk > __:",
+              "isi_mangkuk = isi_mangkuk - 10",
+              "print(isi_mangkuk)"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "0"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Kerja bagus! ketika mangkunya terisi lebih besar dari 0. Pastilah ada sesuatu didalam mangkuknya",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "10"
+              },
+              {
+                "index": 2,
+                "text": "100"
+              },
+              {
+                "index": 3,
+                "text": "0"
+              }
+            ],
+            "answer": "3"
+          },
+          {
+            "index": 9,
+            "type": 1,
+            "content": "Tentu saja, kita juga bisa membuat list dari friends. Mari coba dan keluarkan nilai pertama dari list friends ini.",
+            "image": "",
+            "code": [
+              "friends = []",
+              "firends.append('Aceng')",
+              "firends.append('Udin')",
+              "firends.append('Jajang')",
+              "print(firends[__]))"
+            ],
+            "output": [
+              {
+                "type": "script.js",
+                "text": "Aceng"
+              },
+              {
+                "type": "browser",
+                "text": ""
+              }
+            ],
+            "note": "Apakah kamu melihat perbedaanya? Python mulai menghitung dari 0, jadiitem pertama di list ada diposisi 0, dan item yang kedua ada diposisi 1, dan seterusnya.",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "5"
+              },
+              {
+                "index": 2,
+                "text": "0"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 10,
+            "type": 1,
+            "content": "Dalam python, mendefinisakn prosedur dan function dijalankan dengan 'def' keyword.",
+            "image": "",
+            "code": [
+              "def konversi_ke_kilometer(mil):",
+              "km = mil * 1.60934",
+              "return __"
+            ],
+            "output": [],
+            "note": "Fantastis! Kita membungkus sebuah instruksi untuk mengkonversi mil ke kilometer.",
+            "question": "",
+            "choice": [
+              {
+                "index": 1,
+                "text": "mil"
+              },
+              {
+                "index": 2,
+                "text": "km"
+              }
+            ],
+            "answer": "2"
+          },
+          {
+            "index": 11,
+            "type": 2,
+            "content": "Wow, bukankah kita sudah belajar banyak tetntang programming? Mari kita selesaikan semuanya dalam kuis terakhir! Apa yang benar tentang 'computer-speak' atau bahasa pemograman?",
+            "image": "",
+            "code": [ ],
+            "output": [],
+            "note": "Cantik! Kita menggunakan bahsa pemograman seperti Python untuk berkomunikasi dengan komputer, yang mana hanya berbicara dalam bahsa mesin.",
+            "question": "Pilih satu atau lebih jawaban",
+            "choice": [
+              {
+                "index": 1,
+                "text": "Kita menggunakanya karena komputer tidak mengeti bahasa manusia"
+              },
+              {
+                "index": 2,
+                "text": "Pada akhirnya, komputer menerjemahkanya kedalam bahasa mesin"
+              },
+              {
+                "index": 3,
+                "text": "Python adalah satu-satunya bahasa pemograman diuar sana"
+              }
+            ],
+            "answer": "12"
+          }
+        ]
       }
     ]
   }
